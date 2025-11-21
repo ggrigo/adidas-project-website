@@ -15,7 +15,8 @@ export default function WeeklyProgress() {
                 Weekly Progress Report
               </h1>
               <p className="text-lg md:text-xl text-neutral-600 font-medium">Week of November 21, 2025</p>
-              <p className="text-sm text-neutral-600 font-medium mt-1">Prepared by: Lars Boeddener</p>
+              <p className="text-sm text-neutral-500 font-medium mt-1">Last Updated: November 21, 2025 at 4:30 PM CET</p>
+              <p className="text-sm text-neutral-600 font-medium">Prepared by: Lars Boeddener</p>
             </div>
             <div className="flex flex-col items-end gap-3">
               <div className="inline-flex items-center gap-3 rounded-xl bg-warning/10 border-2 border-warning/30 px-5 py-3 shadow-medium">

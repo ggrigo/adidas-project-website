@@ -69,6 +69,7 @@ export default function Home() {
           <div className="mb-12">
             <h2 className="text-4xl font-black tracking-tight text-neutral-950 mb-3">Current Status</h2>
             <p className="text-lg text-neutral-600 font-medium">Real-time project progress and milestones</p>
+            <p className="text-sm text-neutral-500 font-medium mt-2">Last updated: November 21, 2025 at 4:30 PM CET</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -77,13 +78,20 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-success/5 rounded-full blur-2xl" />
 
               <div className="relative">
-                <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold text-neutral-950">Learning Agent</h3>
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-success/10">
-                    <svg className="w-6 h-6 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-warning/10">
+                    <svg className="w-6 h-6 text-warning" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                     </svg>
                   </div>
+                </div>
+
+                <div className="mb-4">
+                  <span className="status-badge status-badge-yellow">
+                    <span className="status-dot status-dot-yellow"></span>
+                    Awaiting Approval
+                  </span>
                 </div>
 
                 <ProgressBar
@@ -125,13 +133,20 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-info/5 rounded-full blur-2xl" />
 
               <div className="relative">
-                <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold text-neutral-950">Self-Reflection Tool</h3>
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-info/10">
-                    <svg className="w-6 h-6 text-info" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-success/10">
+                    <svg className="w-6 h-6 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
+                </div>
+
+                <div className="mb-4">
+                  <span className="status-badge status-badge-green">
+                    <span className="status-dot status-dot-green"></span>
+                    On Track
+                  </span>
                 </div>
 
                 <ProgressBar
