@@ -26,28 +26,11 @@ export default function ProgressBar({ label, percentage, status, variant = 'blue
       </div>
       <div className="relative w-full bg-neutral-200 rounded-full h-3 overflow-hidden shadow-inner">
         <div
-          className={`h-full rounded-full bg-gradient-to-r ${variantStyles[variant]} ${glowStyles[variant]} transition-all duration-1000 ease-out relative overflow-hidden`}
+          className={`h-full rounded-full bg-gradient-to-r ${variantStyles[variant]} ${glowStyles[variant]} transition-all duration-1000 ease-out`}
           style={{ width: `${percentage}%` }}
-        >
-          {/* Animated shine effect */}
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shimmer" style={{
-            backgroundSize: '200% 100%',
-            animation: 'shimmer 2s infinite'
-          }} />
-        </div>
+        />
       </div>
       <p className="mt-2 text-xs font-semibold text-neutral-600">{status}</p>
-
-      <style jsx>{`
-        @keyframes shimmer {
-          0% {
-            background-position: -200% 0;
-          }
-          100% {
-            background-position: 200% 0;
-          }
-        }
-      `}</style>
     </div>
   );
 }
