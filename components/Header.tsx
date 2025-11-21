@@ -64,6 +64,18 @@ export default function Header() {
           </li>
           <li>
             <Link
+              href="/timeline"
+              className={`px-4 py-2 text-sm font-semibold rounded-lg transition-all ${
+                isActive('/timeline')
+                  ? 'text-adidas-black bg-neutral-100'
+                  : 'text-neutral-600 hover:text-neutral-950 hover:bg-neutral-50'
+              }`}
+            >
+              Timeline
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/documents"
               className="ml-2 px-5 py-2 text-sm font-semibold text-white rounded-lg bg-adidas-black hover:bg-neutral-800 shadow-medium hover:shadow-hard hover:scale-105 transition-all"
             >
