@@ -1,12 +1,11 @@
 'use client';
 
-import ActionItemsTable from '@/components/ActionItemsTable';
-import MilestonesTable from '@/components/MilestonesTable';
-import { getActionItemsByTeam, upcomingMilestones } from '@/lib/action-items-data';
+import WeeklyFocusSection from '@/components/WeeklyFocusSection';
+import TaskTrackerTable from '@/components/TaskTrackerTable';
+import { tasks, getWeeklyFocusTasks } from '@/lib/task-tracker-data';
 
 export default function WeeklyProgress() {
-  const adidasActions = getActionItemsByTeam('adidas');
-  const baresquareActions = getActionItemsByTeam('baresquare');
+  const focusTasks = getWeeklyFocusTasks();
   return (
     <div className="min-h-screen bg-neutral-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 lg:py-20">
@@ -254,19 +253,12 @@ export default function WeeklyProgress() {
           </section>
         </div>
 
-        {/* Action Items */}
-        <section className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-black tracking-tight text-neutral-950 mb-8">Action Items Tracker</h2>
+        {/* Weekly Focus */}
+        <WeeklyFocusSection focusTasks={focusTasks} />
 
-          <div className="space-y-8">
-            <ActionItemsTable items={adidasActions} title="adidas Team Actions" />
-            <ActionItemsTable items={baresquareActions} title="Baresquare Team Actions" />
-          </div>
-        </section>
-
-        {/* Upcoming Milestones */}
+        {/* All Tasks */}
         <section className="mb-16">
-          <MilestonesTable milestones={upcomingMilestones} />
+          <TaskTrackerTable tasks={tasks} title="All Project Tasks" />
         </section>
 
         {/* Lessons Learned */}

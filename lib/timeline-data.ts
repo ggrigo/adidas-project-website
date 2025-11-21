@@ -157,6 +157,38 @@ export const timelineData: TimelinePhase[] = [
         description: 'Infrastructure approval for deployment',
         owner: 'Lucas',
         status: 'at-risk'
+      },
+      {
+        id: 'm2-8',
+        name: 'Phase 1 Billing Complete',
+        date: '2025-12-05',
+        description: 'SAP Goods Receipt confirmed for Phase 1',
+        owner: 'Zsofia',
+        status: 'complete'
+      },
+      {
+        id: 'm2-9',
+        name: 'Product Roadmap Review',
+        date: '2025-12-10',
+        description: 'Post-MVP test roadmap review session',
+        owner: 'Nikos',
+        status: 'pending'
+      },
+      {
+        id: 'm2-10',
+        name: 'Learning Recommendations Mapped',
+        date: '2025-12-12',
+        description: 'Director cohort learning recs deadline',
+        owner: 'Zsofia/Lars',
+        status: 'pending'
+      },
+      {
+        id: 'm2-11',
+        name: 'System Integration Test Complete',
+        date: '2025-12-15',
+        description: 'SIT complete on adidas environment',
+        owner: 'Nikos',
+        status: 'pending'
       }
     ]
   },
@@ -178,14 +210,30 @@ export const timelineData: TimelinePhase[] = [
     milestones: [
       {
         id: 'm3-1',
-        name: 'Director Cohort Pilot Start',
-        date: '2026-01-15',
-        description: '80-100 directors begin using Self-Reflection Tool',
-        owner: 'TBD',
+        name: 'UI Copy Finalized for Pilot',
+        date: '2026-01-14',
+        description: 'All UI copy and privacy statements approved',
+        owner: 'Zsofia/Nikos',
         status: 'pending'
       },
       {
         id: 'm3-2',
+        name: 'Director Cohort Pilot Start',
+        date: '2026-01-15',
+        description: '80-100 directors begin using Self-Reflection Tool',
+        owner: 'Lars',
+        status: 'pending'
+      },
+      {
+        id: 'm3-3',
+        name: 'InfoSec Approval Complete',
+        date: '2026-01-26',
+        description: 'InfoSec signs off on LeanIX entry',
+        owner: 'Lukas',
+        status: 'pending'
+      },
+      {
+        id: 'm3-4',
         name: 'Learning Agent Deployment',
         date: '2026-02-01',
         description: 'Learning Agent goes live for all employees',
@@ -193,7 +241,15 @@ export const timelineData: TimelinePhase[] = [
         status: 'pending'
       },
       {
-        id: 'm3-3',
+        id: 'm3-5',
+        name: 'Privacy Approval Complete',
+        date: '2026-02-12',
+        description: 'Privacy team signs off on LeanIX entry',
+        owner: 'Lukas/Lars',
+        status: 'pending'
+      },
+      {
+        id: 'm3-6',
         name: 'Infrastructure Scaling Complete',
         date: '2026-02-15',
         description: 'Systems optimized for enterprise load',
@@ -201,7 +257,7 @@ export const timelineData: TimelinePhase[] = [
         status: 'pending'
       },
       {
-        id: 'm3-4',
+        id: 'm3-7',
         name: 'Enterprise Launch',
         date: '2026-03-01',
         description: 'Both solutions available to all 60,000 employees',
