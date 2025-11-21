@@ -5,21 +5,24 @@ const documents = {
       description: 'Comprehensive overview for decision-makers and stakeholders',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '2.1 MB',
+      size: '3.6 MB',
+      file: '/documents/executive-briefing.pdf',
     },
     {
       name: 'Website Structure Outline',
       description: 'Complete blueprint for project website with 20 page specifications',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '856 KB',
+      size: '107 KB',
+      file: '/documents/website-structure-outline.pdf',
     },
     {
       name: 'Master Guide & README',
       description: 'Overview of all project documentation and how to navigate it',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '245 KB',
+      size: '111 KB',
+      file: '/documents/master-guide-readme.pdf',
     },
   ],
   operational: [
@@ -28,21 +31,24 @@ const documents = {
       description: 'Current week status, action items, and upcoming milestones',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '1.3 MB',
+      size: '2.1 MB',
+      file: '/documents/weekly-progress-nov-21.pdf',
     },
     {
       name: 'Project Timeline & Roadmap',
       description: 'Detailed timeline from March 2025 through 2026 with Gantt data',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '1.8 MB',
+      size: '165 KB',
+      file: '/documents/project-timeline-roadmap.pdf',
     },
     {
       name: 'Weekly Progress Template',
       description: 'Template for ongoing weekly status updates',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '623 KB',
+      size: '190 KB',
+      file: '/documents/weekly-progress-template.pdf',
     },
   ],
   handover: [
@@ -51,14 +57,16 @@ const documents = {
       description: 'Comprehensive 21-page context for successor handover',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '3.4 MB',
+      size: '154 KB',
+      file: '/documents/project-context-document.pdf',
     },
     {
       name: 'Stakeholder Map',
       description: 'Key contacts, roles, and communication protocols',
       date: 'November 21, 2025',
       type: 'PDF',
-      size: '412 KB',
+      size: '148 KB',
+      file: '/documents/stakeholder-map.pdf',
     },
   ],
 };
@@ -148,12 +156,18 @@ export default function Documents() {
                   </div>
 
                   {/* Download Button */}
-                  <button className="flex-shrink-0 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-3 text-sm font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium">
+                  <a
+                    href={doc.file}
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-shrink-0 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-3 text-sm font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium"
+                  >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
@@ -208,12 +222,18 @@ export default function Documents() {
                   </div>
 
                   {/* Download Button */}
-                  <button className="flex-shrink-0 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-3 text-sm font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium">
+                  <a
+                    href={doc.file}
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-shrink-0 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-3 text-sm font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium"
+                  >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
@@ -268,53 +288,24 @@ export default function Documents() {
                   </div>
 
                   {/* Download Button */}
-                  <button className="flex-shrink-0 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-3 text-sm font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium">
+                  <a
+                    href={doc.file}
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-shrink-0 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-3 text-sm font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium"
+                  >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Update Instructions */}
-        <section>
-          <div className="relative overflow-hidden rounded-2xl border-2 border-info/30 bg-gradient-to-br from-info-light via-white to-white p-8 shadow-soft">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-info/10 rounded-full blur-3xl" />
-            <div className="relative">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-info/10 border border-info/20 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-info" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-neutral-950 mb-2">How to Update Documents</h3>
-                  <p className="text-neutral-700 font-medium leading-relaxed mb-4">
-                    To update documents in this repository, add files to the{' '}
-                    <code className="inline-flex items-center gap-1 bg-neutral-900 text-white px-2.5 py-1 rounded-lg text-sm font-mono">
-                      public/documents/
-                    </code>
-                    {' '}folder and update the document list in{' '}
-                    <code className="inline-flex items-center gap-1 bg-neutral-900 text-white px-2.5 py-1 rounded-lg text-sm font-mono">
-                      app/documents/page.tsx
-                    </code>
-                    . The site will automatically rebuild and deploy to Netlify.
-                  </p>
-                  <div className="flex items-center gap-2 text-sm">
-                    <svg className="w-4 h-4 text-info" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="font-semibold text-info">Changes deploy automatically within 2-3 minutes</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   );

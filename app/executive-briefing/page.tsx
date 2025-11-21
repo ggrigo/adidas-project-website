@@ -49,7 +49,24 @@ export default function ExecutiveBriefing() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter text-neutral-950 mb-4">
             AI Learning & Leadership<br />Development Initiative
           </h1>
-          <p className="text-lg md:text-xl text-neutral-600 font-medium">November 21, 2025</p>
+          <p className="text-lg md:text-xl text-neutral-600 font-medium mb-8">November 21, 2025</p>
+
+          {/* Download PDF Button */}
+          <div className="flex justify-center">
+            <a
+              href="/documents/executive-briefing.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-xl bg-neutral-900 px-8 py-4 text-base font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download PDF
+              <span className="text-xs font-normal opacity-75">(3.6 MB)</span>
+            </a>
+          </div>
         </div>
 
         {/* Two-column layout: TOC + Content */}
