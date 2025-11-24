@@ -1,0 +1,802 @@
+[
+  {
+    "page": "Landing Page",
+    "url": "http://localhost:3000",
+    "fullText": "A\nadidas AI L&D\nProject Hub\nHome\nExecutive Briefing\nWeekly Progress\nTimeline\nDocuments\nEnterprise AI Deployment\nTransforming Learning &\nLeadership Development\nwith AI\nadidas' first enterprise HR AI deployment - Establishing the foundation for future innovation\nEmployees Impacted\n60,000\nPersonalized learning recommendations\nLeaders Supported\n10,000\nAI-powered self-reflection\nTechnology Stack\n100%\nMicrosoft - Zero external licensing\nTime Savings\n6+ months\nFor future AI projects\nCurrent Status\nReal-time project progress and milestones\nLast updated: November 21, 2025 at 4:30 PM CET\nLearning Agent\nAwaiting Approval\nOverall Progress\n95\n%\nTechnical development complete - Awaiting deployment approval\nCore AI engine complete\nSharePoint integration ready\n⏳\nAwaiting LeanIX approval\nSelf-Reflection Tool\nOn Track\nOverall Progress\n90\n%\nReady for mini pilot - December 9-13, 2025\n23-question framework complete\nAI recommendation engine ready\n⏳\nMini pilot Dec 9-13\nWhat We're Building\nTwo integrated AI solutions transforming talent development\nLearning Agent\nAI-powered personalized learning recommendations that understand your role, skills, and career goals. Reduces time to find relevant learning from 30+ minutes to under 5 minutes.\nLearn More\nLeadership Self-Reflection Tool\nCompetency-based self-assessment against nine leadership competencies with AI-powered development plans and personalized micro-actions for continuous growth.\nLearn More\nValue Delivered\nImpact across all levels of the organization\nFor Employees\nFaster, personalized learning experiences tailored to individual roles and career aspirations\nFor Leaders\nStructured development support with actionable plans and progress tracking\nFor Organization\nStrategic insights, skills gap visibility, and scalable AI infrastructure for future innovation\nUpcoming Milestone\nWhat's Happening Now\nDecember 2-3, 2025 - Face-to-face meeting in Herzogenaurach\nView Executive Briefing\nLatest Updates\nQuick Links\nNavigate to key project resources\nExecutive Briefing\nComprehensive overview for decision-makers\nWeekly Progress\nReal-time project status and updates\nDocument Repository\nAll project artifacts and materials\nContact Information\nGet in touch with the team\nadidas Team\nPedro Silva - VP Talent Organization\nKarina - Senior Leadership\nLucas - L&D Technical Liaison\nDivya Jhamb - Learning Initiatives India\nBaresquare Team\nGeorgios Grigoriadis - CEO\nLars Boeddener - COO\nNikos Vogiatzis - Technical Lead\nContact\ngeorgios@baresquare.com\nlars@baresquare.com\nadidas AI Learning & Leadership Development Initiative - Project Hub\nLast Updated: November 21, 2025",
+    "structured": [
+      {
+        "type": "h1",
+        "text": "adidas AI L&D"
+      },
+      {
+        "type": "h1",
+        "text": "Transforming Learning &Leadership Developmentwith AI"
+      },
+      {
+        "type": "h3",
+        "text": "Employees Impacted"
+      },
+      {
+        "type": "h3",
+        "text": "Leaders Supported"
+      },
+      {
+        "type": "h3",
+        "text": "Technology Stack"
+      },
+      {
+        "type": "h3",
+        "text": "Time Savings"
+      },
+      {
+        "type": "h2",
+        "text": "Current Status"
+      },
+      {
+        "type": "h3",
+        "text": "Learning Agent"
+      },
+      {
+        "type": "h3",
+        "text": "Self-Reflection Tool"
+      },
+      {
+        "type": "h2",
+        "text": "What We're Building"
+      },
+      {
+        "type": "h3",
+        "text": "Learning Agent"
+      },
+      {
+        "type": "h3",
+        "text": "Leadership Self-Reflection Tool"
+      },
+      {
+        "type": "h2",
+        "text": "Value Delivered"
+      },
+      {
+        "type": "h3",
+        "text": "For Employees"
+      },
+      {
+        "type": "h3",
+        "text": "For Leaders"
+      },
+      {
+        "type": "h3",
+        "text": "For Organization"
+      },
+      {
+        "type": "h2",
+        "text": "What's Happening Now"
+      },
+      {
+        "type": "h2",
+        "text": "Quick Links"
+      },
+      {
+        "type": "h3",
+        "text": "Executive Briefing"
+      },
+      {
+        "type": "h3",
+        "text": "Weekly Progress"
+      },
+      {
+        "type": "h3",
+        "text": "Document Repository"
+      },
+      {
+        "type": "h3",
+        "text": "Contact Information"
+      },
+      {
+        "type": "h3",
+        "text": "adidas Team"
+      },
+      {
+        "type": "h3",
+        "text": "Baresquare Team"
+      },
+      {
+        "type": "h3",
+        "text": "Contact"
+      },
+      {
+        "type": "section",
+        "heading": "Transforming Learning &Leadership Developmentwith AI",
+        "textLength": 377
+      },
+      {
+        "type": "section",
+        "heading": "Current Status",
+        "textLength": 457
+      },
+      {
+        "type": "section",
+        "heading": "What We're Building",
+        "textLength": 477
+      },
+      {
+        "type": "section",
+        "heading": "Value Delivered",
+        "textLength": 361
+      },
+      {
+        "type": "section",
+        "heading": "What's Happening Now",
+        "textLength": 134
+      },
+      {
+        "type": "section",
+        "heading": "Quick Links",
+        "textLength": 254
+      }
+    ],
+    "wordCount": 349
+  },
+  {
+    "page": "Executive Briefing",
+    "url": "http://localhost:3000/executive-briefing",
+    "fullText": "A\nadidas AI L&D\nProject Hub\nHome\nExecutive Briefing\nWeekly Progress\nTimeline\nDocuments\nExecutive Briefing\nAI Learning & Leadership\nDevelopment Initiative\nNovember 21, 2025\nDownload PDF\n(3.6 MB)\nContents\nAt a Glance\nBusiness Impact\nTechnical Foundation\nProject Journey\nWhat's Next\n2026 Roadmap\nInvestment & ROI\nSuccess Metrics\nKey Contacts\nAt a Glance\nBaresquare and adidas are partnering to deliver adidas' first enterprise AI deployment in HR—two integrated solutions transforming how 60,000 employees learn and 10,000 leaders develop.\nProjects\nLearning Agent:\nAI-powered personalized learning recommendations\nLeadership Self-Reflection Tool:\nCompetency-based self-assessment and development planning\nStrategic Value\nFirst HR AI deployment establishes governance and infrastructure for future innovation\n100% Microsoft Azure stack ensures security, compliance, and cost efficiency\nPrivacy-first architecture with individual data ownership\nScalable foundation for performance management, recruiting, and other HR domains\nCurrent Status\nLearning Agent:\nTechnical development complete, awaiting deployment approval\nSelf-Reflection Tool:\nMini pilot scheduled December 9-13, 2025\nBoth projects positioned for Q1 2026 enterprise rollout\nBusiness Impact\nFor Employees (60,000)\nReduce time to find relevant learning:\nFrom 30+ minutes to under 5 minutes\nPersonalized recommendations:\nAI understands your role, skills, and career goals\nUnified experience:\nSelf-reflection insights inform learning recommendations\nFor Leaders (10,000)\nStructured self-reflection:\nAgainst nine leadership competencies\nActionable development plans:\nPersonalized micro-actions and learning paths\nProgress tracking:\nPrivate, user-controlled development journey\nFor the Organization\nSkills gap visibility:\nAggregated, anonymized data on development needs\nStrategic insights:\nIdentify training priorities and leadership development trends\nScalable infrastructure:\nFoundation for future AI innovations in talent management\nCost efficiency:\nMinimal ongoing operational costs, leverages existing Microsoft investment\nTechnical Foundation\nBuilt entirely on Microsoft Azure/365:\nMicrosoft Copilot Studio\nPower Platform\nSharePoint Online\nIndividual OneDrive\nKey Innovations:\n1\nPrivacy-first architecture\nUser data stored in personal OneDrive, not central database\n2\nIntelligent mapping\nAI connects roles → skills → learning → competencies\n3\nSeamless integration\nSharePoint plugins integrated into existing Learning Hub\n4\nZero external licenses\n100% Microsoft stack, no additional vendors\nInfrastructure Value\nThis deployment establishes reusable AI governance, security frameworks, and technical architecture that accelerates future HR AI projects by\n6+ months per initiative\n.\nProject Journey\nMarch 2025\nInitial engagement on Learning Agent concept\nJune 2025\nLearning Agent SOW signed, scope expanded to include Self-Reflection Tool\nAugust 2025\nFace-to-face workshop, technical architecture finalized\nAug-Nov 2025\nInfrastructure setup, AI Committee approval, prototype development\nNovember 2025\nProjects ready for pilot testing\nDecember 2025\nMini pilot with 5-8 directors, transition to new project lead\nQ1 2026\nEnterprise rollout for both solutions\nWhat's Next\nDecember 2-3: Face-to-Face Alignment (Herzogenaurach)\nExecutive briefing for Pedro, Karina, and new project lead\nDemonstration of both solutions\nMini pilot planning and success criteria\nEnterprise rollout strategy discussion\nDecember 9-13: Mini Pilot Testing\n5-8 directors test Leadership Self-Reflection Tool\nStructured feedback collection\nRefinement based on real user experience\nDocumentation of lessons learned\nQ1 2026: Path to Enterprise\nJanuary:\nDirector cohort pilot (40-50 users)\nFebruary:\nScale infrastructure, finalize change management\nMarch:\nInitial enterprise rollout\nLearning Agent: 8,000 people leaders\nSelf-Reflection Tool: 10,000 people leaders\n2026 Roadmap: From Foundation to Ecosystem\nQ2: Integration & Expansion\nPerformance management integration:\nConnect self-reflection to performance conversations\nGerman language support:\nServe German-speaking employee population\nEnhanced analytics:\nSkills gap analysis, learning effectiveness metrics\nQ3-Q4: Advanced Capabilities\nAdditional languages:\nSpanish, French, Chinese, Japanese\nCareer pathing:\nAI-powered career recommendations\nPeer learning:\nConnect employees for knowledge sharing\nVoice interface:\nHands-free interaction for accessibility\n2027: Strategic Platform\nRecruiting integration:\nSkills-based hiring recommendations\nSuccession planning:\nPredictive analytics for talent pipelines\nExternal learning platforms:\nExpand beyond LinkedIn Learning\nAdvanced organizational insights:\nStrategic workforce planning\nInvestment & Value Proposition\nOngoing Operational Costs\nTechnology: €15,000-25,000/year at full scale\nMicrosoft Azure OpenAI usage\nPower Platform licenses\nNo additional software required\nOperations: 0.5-1.0 FTE equivalent\nContent updates and refinement\nUser support and training\nContinuous improvement\nDirect Benefits\nReduced external training costs (better targeting)\nImproved learning engagement and completion\nBetter leadership development (reduced turnover)\nFaster time to competency for new roles\nStrategic Benefits\nAccelerated future AI projects (6+ months time savings per project)\nData-driven talent decisions (skills gap visibility)\nCompetitive advantage in AI-powered HR\nFoundation for performance management transformation\nSuccess Metrics\nLearning Agent\nAdoption:\n70% of people leaders active within 6 months\nEngagement:\nAverage 2+ sessions per week, 10+ minutes per session\nLearning completion:\n30% increase in content completion year-over-year\nSatisfaction:\n4.0+ out of 5.0 user rating\nSelf-Reflection Tool\nCompletion rate:\n85% of leaders complete annual self-reflection\nDevelopment plans:\n80% create actionable development plan\nOrganizational insights:\nIdentify top 10 skills gaps by function/geography\nPerformance integration:\nTrack in 2026 performance cycle\nCombined Impact\nInfrastructure reuse:\n3+ additional AI projects leverage foundation by end of 2026\nCost efficiency:\n40% lower than external solutions or consultancy\nTime to market:\nNew HR AI initiatives launch 6+ months faster\nStrategic insights:\nSkills-based workforce planning capabilities operational by Q4 2026\nKey Contacts\nA\nadidas\nPedro Silva - VP Talent Organization (Self-Reflection sponsor)\nKarina - Senior Leadership (Leadership Framework sponsor)\nZsofia Pior - Leadership Framework Product Owner (until Dec 12)\nLucas - L&D Technical Liaison (Learning Agent)\nDivya Jhamb - Learning Initiatives India (Self-Reflection)\nBaresquare\nGeorgios Grigoriadis, CEO\nStrategic oversight\ngeorgios@baresquare.com\nLars Boeddener, COO\nProgram management\nlars@baresquare.com\nNikos Vogiatzis\nTechnical Lead - Development and architecture\nPrepared by:\nGeorgios Grigoriadis, Baresquare\nDate:\nNovember 21, 2025\nNext Update:\nDecember 3, 2025 (post face-to-face meeting)\nadidas Team\nPedro Silva - VP Talent Organization\nKarina - Senior Leadership\nLucas - L&D Technical Liaison\nDivya Jhamb - Learning Initiatives India\nBaresquare Team\nGeorgios Grigoriadis - CEO\nLars Boeddener - COO\nNikos Vogiatzis - Technical Lead\nContact\ngeorgios@baresquare.com\nlars@baresquare.com\nadidas AI Learning & Leadership Development Initiative - Project Hub\nLast Updated: November 21, 2025",
+    "structured": [
+      {
+        "type": "h1",
+        "text": "adidas AI L&D"
+      },
+      {
+        "type": "h1",
+        "text": "AI Learning & LeadershipDevelopment Initiative"
+      },
+      {
+        "type": "h2",
+        "text": "Contents"
+      },
+      {
+        "type": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "type": "h3",
+        "text": "Projects"
+      },
+      {
+        "type": "h3",
+        "text": "Strategic Value"
+      },
+      {
+        "type": "h3",
+        "text": "Current Status"
+      },
+      {
+        "type": "h2",
+        "text": "Business Impact"
+      },
+      {
+        "type": "h3",
+        "text": "For Employees (60,000)"
+      },
+      {
+        "type": "h3",
+        "text": "For Leaders (10,000)"
+      },
+      {
+        "type": "h3",
+        "text": "For the Organization"
+      },
+      {
+        "type": "h2",
+        "text": "Technical Foundation"
+      },
+      {
+        "type": "h3",
+        "text": "Built entirely on Microsoft Azure/365:"
+      },
+      {
+        "type": "h3",
+        "text": "Key Innovations:"
+      },
+      {
+        "type": "h4",
+        "text": "Privacy-first architecture"
+      },
+      {
+        "type": "h4",
+        "text": "Intelligent mapping"
+      },
+      {
+        "type": "h4",
+        "text": "Seamless integration"
+      },
+      {
+        "type": "h4",
+        "text": "Zero external licenses"
+      },
+      {
+        "type": "h4",
+        "text": "Infrastructure Value"
+      },
+      {
+        "type": "h2",
+        "text": "Project Journey"
+      },
+      {
+        "type": "h2",
+        "text": "What's Next"
+      },
+      {
+        "type": "h3",
+        "text": "December 2-3: Face-to-Face Alignment (Herzogenaurach)"
+      },
+      {
+        "type": "h3",
+        "text": "December 9-13: Mini Pilot Testing"
+      },
+      {
+        "type": "h3",
+        "text": "Q1 2026: Path to Enterprise"
+      },
+      {
+        "type": "h2",
+        "text": "2026 Roadmap: From Foundation to Ecosystem"
+      },
+      {
+        "type": "h3",
+        "text": "Q2: Integration & Expansion"
+      },
+      {
+        "type": "h3",
+        "text": "Q3-Q4: Advanced Capabilities"
+      },
+      {
+        "type": "h3",
+        "text": "2027: Strategic Platform"
+      },
+      {
+        "type": "h2",
+        "text": "Investment & Value Proposition"
+      },
+      {
+        "type": "h3",
+        "text": "Ongoing Operational Costs"
+      },
+      {
+        "type": "h4",
+        "text": "Technology: €15,000-25,000/year at full scale"
+      },
+      {
+        "type": "h4",
+        "text": "Operations: 0.5-1.0 FTE equivalent"
+      },
+      {
+        "type": "h3",
+        "text": "Direct Benefits"
+      },
+      {
+        "type": "h3",
+        "text": "Strategic Benefits"
+      },
+      {
+        "type": "h2",
+        "text": "Success Metrics"
+      },
+      {
+        "type": "h3",
+        "text": "Learning Agent"
+      },
+      {
+        "type": "h3",
+        "text": "Self-Reflection Tool"
+      },
+      {
+        "type": "h3",
+        "text": "Combined Impact"
+      },
+      {
+        "type": "h2",
+        "text": "Key Contacts"
+      },
+      {
+        "type": "h3",
+        "text": "Aadidas"
+      },
+      {
+        "type": "h3",
+        "text": "Baresquare"
+      },
+      {
+        "type": "h3",
+        "text": "adidas Team"
+      },
+      {
+        "type": "h3",
+        "text": "Baresquare Team"
+      },
+      {
+        "type": "h3",
+        "text": "Contact"
+      },
+      {
+        "type": "section",
+        "heading": "At a Glance",
+        "textLength": 879
+      },
+      {
+        "type": "section",
+        "heading": "Business Impact",
+        "textLength": 835
+      },
+      {
+        "type": "section",
+        "heading": "Technical Foundation",
+        "textLength": 636
+      },
+      {
+        "type": "section",
+        "heading": "Project Journey",
+        "textLength": 458
+      },
+      {
+        "type": "section",
+        "heading": "What's Next",
+        "textLength": 657
+      },
+      {
+        "type": "section",
+        "heading": "2026 Roadmap: From Foundation to Ecosystem",
+        "textLength": 805
+      },
+      {
+        "type": "section",
+        "heading": "Investment & Value Proposition",
+        "textLength": 715
+      },
+      {
+        "type": "section",
+        "heading": "Success Metrics",
+        "textLength": 839
+      },
+      {
+        "type": "section",
+        "heading": "Key Contacts",
+        "textLength": 498
+      }
+    ],
+    "wordCount": 922
+  },
+  {
+    "page": "Weekly Progress",
+    "url": "http://localhost:3000/weekly-progress",
+    "fullText": "A\nadidas AI L&D\nProject Hub\nHome\nExecutive Briefing\nWeekly Progress\nTimeline\nDocuments\nWeekly Update\nWeekly Progress Report\nWeek of November 21, 2025\nLast Updated: November 21, 2025 at 4:30 PM CET\nPrepared by: Lars Boeddener\nAt Risk\nStakeholder transition\nExecutive Summary\nKey focus this week: preparing comprehensive documentation for executive briefing (Dec 2-3) and Zsofia's successor handover. Self-Reflection Tool mini pilot on track for Dec 9-13. Learning Agent deployment still awaiting LeanIX approval, but no impact to overall timeline. Face-to-face meeting in Herzogenaurach scheduled December 2-3 with Georgios attending.\nLearning Agent\nAwaiting infrastructure approval\nCompleted This Week\nConfirmed LeanIX approval process timeline with Lucas\nUpdated deployment documentation\nPrepared demonstration environment for Dec 2-3 meeting\nIn Progress\nLeanIX registration - Lucas (adidas) - Expected: Nov 29\nProduction environment security group configuration - NIIT/Lucas - Expected: Dec 6\nUser documentation draft - Lars - Expected: Nov 30\nBlockers & Risks\nLeanIX Approval Delay\n13 weeks elapsed vs 4 weeks estimated. Latest update: approval expected by Nov 29. Impact: Cannot deploy to production until complete.\nAction:\nLucas escalating with IT governance team.\nKey Metrics\nDevelopment environment\n100% functional\nCore features completed\n95%\nDocumentation\n60% complete\nSelf-Reflection Tool\nOn track for mini pilot\nCompleted This Week\nExecutive context document prepared (21-page comprehensive version)\nExecutive briefing document created (landing page version)\nMini pilot logistics planned with Zsofia\nAlternative UI design prepared by Nikos\nIn Progress\nMicro-actions content review - Zsofia/Divya - Expected: Nov 27\nMini pilot participant confirmation (5-8 directors) - Zsofia - Expected: Nov 29\nUser access permissions setup - Nikos - Expected: Nov 30\nBlockers & Risks\nStakeholder Transition\nZsofia departing Dec 12, successor TBD (announcement expected end of week).\nAction:\nComprehensive handover documentation prepared, face-to-face meeting scheduled Dec 2-3 for transition.\nKey Metrics\nMini pilot participants\n0/5-8 confirmed\nContent review\n80% complete\nUI/UX refinements\n2 alternatives prepared\nThis Week's Focus\n10\npriority\ntasks\nrequiring attention\nPRODUCT DEV\nRatings (Pilot)\nDec 15, 2001\nZsofia\nOn Track\nPRODUCT DEV\nLF questions all cohorts\nJan 26, 2001\nZsofia\nPaused\nCHANGE REQUESTS\nGerman language\nJan 22, 2001\nZsofia\nPaused\nCHANGE REQUESTS\nIC-Values Self-Reflection Tool\nJan 27, 2001\nZsofia\nOn Watch\nCHANGE REQUESTS\nOther languages\nJan 16, 2001\nZsofia\nPaused\nPRODUCT DEV\nReview before submit page (New Feauture/UX request)\nDec 15, 2001\nZsofia\nOn Watch\nPROJECT ADMIN\nPhase 1 billing\nDec 5, 2001\nZsofia\nCompleted\nSTAKEHOLDER MGT.\nWorkers Council\nMar 11, 2001\nZsofia\nPaused\nSTAKEHOLDER MGT.\nInfoSec\nJan 26, 2001\nLukas\nOn Watch\nSTAKEHOLDER MGT.\nPrivacy\nFeb 12, 2001\nLukas\nOn Watch\nAll Project Tasks\nAll Workstreams\nANALYTICS\nCHANGE REQUESTS\nCONTENT OPS\nPRODUCT DEV\nPROJECT ADMIN\nSTAKEHOLDER MGT.\nUSER TESTING\nAll Status\nOn Track\nCompleted\nOn Watch\nPaused\nNot Started\nTask\nWorkstream\nOwners\nDue Date\nStatus\nPilot Testing\nUSER TESTING\nZsofia / Lars\nJan 5, 2001\nPaused\nProduct Version Control (New Feature/UX request)\nPRODUCT DEV\nDivya / Nikos\nJan 12, 2001\nNot Started\nUI Copy (Pilot)\nCONTENT OPS\nZsofia / Nikos\nJan 14, 2001\nNot Started\nOther languages\nCHANGE REQUESTS\nZsofia / Lars\nJan 16, 2001\nPaused\nGerman language\nCHANGE REQUESTS\nZsofia / Lars\nJan 22, 2001\nPaused\nLF questions all cohorts\nPRODUCT DEV\nZsofia / Nikos\nJan 26, 2001\nPaused\nInfoSec\nSTAKEHOLDER MGT.\nLukas / Lars\nJan 26, 2001\nOn Watch\nIC-Values Self-Reflection Tool\nCHANGE REQUESTS\nZsofia / Lars\nJan 27, 2001\nOn Watch\nPrivacy\nSTAKEHOLDER MGT.\nLukas / Lars\nFeb 12, 2001\nOn Watch\nInfoSec\nSTAKEHOLDER MGT.\nLukas / Nikos\nFeb 12, 2001\nOn Watch\nPrivacy\nSTAKEHOLDER MGT.\nLukas / Lars\nFeb 12, 2001\nOn Watch\nWorkers Council\nSTAKEHOLDER MGT.\nZsofia / Lars\nMar 11, 2001\nPaused\nProduct Roadmap\nPRODUCT DEV\nZsofia / Nikos\nMar 27, 2001\nOn Track\nMicro-Actions v3 review (Mini Test)\nPRODUCT DEV\nZsofia / Nikos\nNov 13, 2001\nCompleted\nUpdated UI \n(Mini Test)\nPRODUCT DEV\nZsofia / Nikos\nNov 14, 2001\nCompleted\nMini Testing\nUSER TESTING\nZsofia / Lars\nNov 18, 2001\nCompleted\nUI Copy (Mini Test)\nCONTENT OPS\nZsofia / Nikos\nNov 25, 2001\nCompleted\nUpdated UI \n(Mini Test)\nPRODUCT DEV\nZsofia / Nikos\nNov 28, 2001\nOn Track\nMini Testing\nUSER TESTING\nZsofia / Lars\nNov 28, 2001\nOn Track\nPhase 1 billing\nPROJECT ADMIN\nZsofia / Lars\nDec 5, 2001\nCompleted\nPilot Testing\nUSER TESTING\nZsofia / Lars\nDec 8, 2001\nPaused\nMini Testing\nUSER TESTING\nZsofia / Lars\nDec 11, 2001\nOn Track\nLearning Recs (Pilot)\nCONTENT OPS\nZsofia / Lars\nDec 12, 2001\nOn Watch\nRatings (Pilot)\nPRODUCT DEV\nZsofia / Nikos\nDec 15, 2001\nOn Track\nSystem Integration Test\nPRODUCT DEV\nLukas / Nikos\nDec 15, 2001\nOn Track\nReview before submit page (New Feauture/UX request)\nPRODUCT DEV\nZsofia / Lars\nDec 15, 2001\nOn Watch\nAnalytics Reqs\nANALYTICS\nLukas / Kassiani\nDec 19, 2001\nPaused\nShowing\n27\nof\n27\ntasks\nLessons Learned\nWhat Went Well\nProactive creation of comprehensive documentation helps with transition management\nFace-to-face meeting timing is excellent for alignment with new successor\nAlternative UI design prepared in advance gives stakeholders options\nWhat Could Be Improved\nEarlier identification of stakeholder transition risks would have allowed more preparation time\nMore frequent executive-level communication to maintain visibility and support\nClearer definition of \"done\" for deliverables to avoid scope ambiguity\nNext Report Due:\nNovember 29, 2025\nQuestions or Issues:\nContact\nLars Boeddener\nor\nGeorgios Grigoriadis\nadidas Team\nPedro Silva - VP Talent Organization\nKarina - Senior Leadership\nLucas - L&D Technical Liaison\nDivya Jhamb - Learning Initiatives India\nBaresquare Team\nGeorgios Grigoriadis - CEO\nLars Boeddener - COO\nNikos Vogiatzis - Technical Lead\nContact\ngeorgios@baresquare.com\nlars@baresquare.com\nadidas AI Learning & Leadership Development Initiative - Project Hub\nLast Updated: November 21, 2025",
+    "structured": [
+      {
+        "type": "h1",
+        "text": "adidas AI L&D"
+      },
+      {
+        "type": "h1",
+        "text": "Weekly Progress Report"
+      },
+      {
+        "type": "h2",
+        "text": "Executive Summary"
+      },
+      {
+        "type": "h2",
+        "text": "Learning Agent"
+      },
+      {
+        "type": "h3",
+        "text": "Completed This Week"
+      },
+      {
+        "type": "h3",
+        "text": "In Progress"
+      },
+      {
+        "type": "h3",
+        "text": "Blockers & Risks"
+      },
+      {
+        "type": "h3",
+        "text": "Key Metrics"
+      },
+      {
+        "type": "h2",
+        "text": "Self-Reflection Tool"
+      },
+      {
+        "type": "h3",
+        "text": "Completed This Week"
+      },
+      {
+        "type": "h3",
+        "text": "In Progress"
+      },
+      {
+        "type": "h3",
+        "text": "Blockers & Risks"
+      },
+      {
+        "type": "h3",
+        "text": "Key Metrics"
+      },
+      {
+        "type": "h2",
+        "text": "This Week's Focus"
+      },
+      {
+        "type": "h3",
+        "text": "Ratings (Pilot)"
+      },
+      {
+        "type": "h3",
+        "text": "LF questions all cohorts"
+      },
+      {
+        "type": "h3",
+        "text": "German language"
+      },
+      {
+        "type": "h3",
+        "text": "IC-Values Self-Reflection Tool"
+      },
+      {
+        "type": "h3",
+        "text": "Other languages"
+      },
+      {
+        "type": "h3",
+        "text": "Review before submit page (New Feauture/UX request)"
+      },
+      {
+        "type": "h3",
+        "text": "Phase 1 billing"
+      },
+      {
+        "type": "h3",
+        "text": "Workers Council"
+      },
+      {
+        "type": "h3",
+        "text": "InfoSec"
+      },
+      {
+        "type": "h3",
+        "text": "Privacy"
+      },
+      {
+        "type": "h3",
+        "text": "All Project Tasks"
+      },
+      {
+        "type": "h2",
+        "text": "Lessons Learned"
+      },
+      {
+        "type": "h3",
+        "text": "What Went Well"
+      },
+      {
+        "type": "h3",
+        "text": "What Could Be Improved"
+      },
+      {
+        "type": "h3",
+        "text": "adidas Team"
+      },
+      {
+        "type": "h3",
+        "text": "Baresquare Team"
+      },
+      {
+        "type": "h3",
+        "text": "Contact"
+      },
+      {
+        "type": "button",
+        "text": "PRODUCT DEVRatings (Pilot)Dec 15, 2001ZsofiaOn Track"
+      },
+      {
+        "type": "button",
+        "text": "PRODUCT DEVLF questions all cohortsJan 26, 2001ZsofiaPaused"
+      },
+      {
+        "type": "button",
+        "text": "CHANGE REQUESTSGerman languageJan 22, 2001ZsofiaPaused"
+      },
+      {
+        "type": "button",
+        "text": "CHANGE REQUESTSIC-Values Self-Reflection ToolJan 27, 2001ZsofiaOn Watch"
+      },
+      {
+        "type": "button",
+        "text": "CHANGE REQUESTSOther languagesJan 16, 2001ZsofiaPaused"
+      },
+      {
+        "type": "button",
+        "text": "PRODUCT DEVReview before submit page (New Feauture/UX request)Dec 15, 2001ZsofiaOn Watch"
+      },
+      {
+        "type": "button",
+        "text": "PROJECT ADMINPhase 1 billingDec 5, 2001ZsofiaCompleted"
+      },
+      {
+        "type": "button",
+        "text": "STAKEHOLDER MGT.Workers CouncilMar 11, 2001ZsofiaPaused"
+      },
+      {
+        "type": "button",
+        "text": "STAKEHOLDER MGT.InfoSecJan 26, 2001LukasOn Watch"
+      },
+      {
+        "type": "button",
+        "text": "STAKEHOLDER MGT.PrivacyFeb 12, 2001LukasOn Watch"
+      },
+      {
+        "type": "table",
+        "index": 0,
+        "headers": [
+          "Task",
+          "Workstream",
+          "Owners",
+          "Due Date",
+          "Status"
+        ],
+        "rowCount": 27
+      },
+      {
+        "type": "section",
+        "heading": "Executive Summary",
+        "textLength": 376
+      },
+      {
+        "type": "section",
+        "heading": "Learning Agent",
+        "textLength": 723
+      },
+      {
+        "type": "section",
+        "heading": "Self-Reflection Tool",
+        "textLength": 812
+      },
+      {
+        "type": "section",
+        "heading": "This Week's Focus",
+        "textLength": 637
+      },
+      {
+        "type": "section",
+        "heading": "All Project Tasks",
+        "textLength": 1965
+      },
+      {
+        "type": "section",
+        "heading": "Lessons Learned",
+        "textLength": 517
+      }
+    ],
+    "wordCount": 926
+  },
+  {
+    "page": "Timeline",
+    "url": "http://localhost:3000/timeline",
+    "fullText": "A\nadidas AI L&D\nProject Hub\nHome\nExecutive Briefing\nWeekly Progress\nTimeline\nDocuments\nProject Timeline\nProject Timeline & Roadmap\nComplete journey from March 2025 through 2027 - From foundation to strategic AI platform\nTimeline Overview\nFoundation\nMar 1, 2025\n-\nNov 30, 2025\nPilot Testing\nNov 1, 2025\n-\nDec 31, 2025\nEnterprise Rollout\nJan 1, 2026\n-\nMar 31, 2026\nScale & Enhance\nApr 1, 2026\n-\nDec 31, 2027\nYou are here\nPhase 1: Foundation\nComplete\nMar 1, 2025\n→\nNov 30, 2025\n100\n% Complete (\n6\n/\n6\nmilestones)\nPhase 2: Pilot Testing\nCurrent\nNov 1, 2025\n→\nDec 31, 2025\nIn Progress -\n27\n% Complete\nKey Deliverables\nMini pilot planning and participant recruitment\nExecutive briefing and documentation\nFace-to-face meeting with stakeholders\nMini pilot execution (Dec 9-13)\nPilot results analysis and recommendations\nMilestones\nMini Pilot Planning\nNov 15, 2025\nPilot scope and timeline finalized\nOwner:\nLars Boeddener\nExecutive Briefing Completed\nNov 21, 2025\nComprehensive documentation prepared\nOwner:\nLars Boeddener\nZsofia Successor Announcement\nNov 29, 2025\nNew project lead identified\nOwner:\nZsofia Pior\nFace-to-Face Meeting\nDec 2, 2025\nExecutive meeting in Herzogenaurach (Dec 2-3)\nOwner:\nGeorgios Grigoriadis\nMini Pilot Kickoff\nDec 9, 2025\n5-8 leaders begin testing Self-Reflection Tool\nOwner:\nLars Boeddener\nMini Pilot Complete\nDec 13, 2025\nPilot concluded, feedback collected\nOwner:\nLars Boeddener\nLeanIX Approval (Learning Agent)\nDec 20, 2025\nInfrastructure approval for deployment\nOwner:\nLucas\nPhase 1 Billing Complete\nDec 5, 2025\nSAP Goods Receipt confirmed for Phase 1\nOwner:\nZsofia\nProduct Roadmap Review\nDec 10, 2025\nPost-MVP test roadmap review session\nOwner:\nNikos\nLearning Recommendations Mapped\nDec 12, 2025\nDirector cohort learning recs deadline\nOwner:\nZsofia/Lars\nSystem Integration Test Complete\nDec 15, 2025\nSIT complete on adidas environment\nOwner:\nNikos\nPhase 3: Enterprise Rollout\nPlanned\nJan 1, 2026\n→\nMar 31, 2026\nPhase 4: Scale & Enhance\nPlanned\nApr 1, 2026\n→\nDec 31, 2027\nLegend\nPhase Status\nComplete\nCurrent\nPlanned\nMilestone Status\nComplete\nPending\nAt Risk\nCurrent Focus\nPhase 2: Pilot Testing\nDec 2-3 executive meeting and mini pilot execution\nadidas Team\nPedro Silva - VP Talent Organization\nKarina - Senior Leadership\nLucas - L&D Technical Liaison\nDivya Jhamb - Learning Initiatives India\nBaresquare Team\nGeorgios Grigoriadis - CEO\nLars Boeddener - COO\nNikos Vogiatzis - Technical Lead\nContact\ngeorgios@baresquare.com\nlars@baresquare.com\nadidas AI Learning & Leadership Development Initiative - Project Hub\nLast Updated: November 21, 2025",
+    "structured": [
+      {
+        "type": "h1",
+        "text": "adidas AI L&D"
+      },
+      {
+        "type": "h1",
+        "text": "Project Timeline & Roadmap"
+      },
+      {
+        "type": "h2",
+        "text": "Timeline Overview"
+      },
+      {
+        "type": "h3",
+        "text": "Phase 1: Foundation"
+      },
+      {
+        "type": "h3",
+        "text": "Phase 2: Pilot Testing"
+      },
+      {
+        "type": "h4",
+        "text": "Key Deliverables"
+      },
+      {
+        "type": "h4",
+        "text": "Milestones"
+      },
+      {
+        "type": "h5",
+        "text": "Mini Pilot Planning"
+      },
+      {
+        "type": "h5",
+        "text": "Executive Briefing Completed"
+      },
+      {
+        "type": "h5",
+        "text": "Zsofia Successor Announcement"
+      },
+      {
+        "type": "h5",
+        "text": "Face-to-Face Meeting"
+      },
+      {
+        "type": "h5",
+        "text": "Mini Pilot Kickoff"
+      },
+      {
+        "type": "h5",
+        "text": "Mini Pilot Complete"
+      },
+      {
+        "type": "h5",
+        "text": "LeanIX Approval (Learning Agent)"
+      },
+      {
+        "type": "h5",
+        "text": "Phase 1 Billing Complete"
+      },
+      {
+        "type": "h5",
+        "text": "Product Roadmap Review"
+      },
+      {
+        "type": "h5",
+        "text": "Learning Recommendations Mapped"
+      },
+      {
+        "type": "h5",
+        "text": "System Integration Test Complete"
+      },
+      {
+        "type": "h3",
+        "text": "Phase 3: Enterprise Rollout"
+      },
+      {
+        "type": "h3",
+        "text": "Phase 4: Scale & Enhance"
+      },
+      {
+        "type": "h3",
+        "text": "Legend"
+      },
+      {
+        "type": "h4",
+        "text": "Phase Status"
+      },
+      {
+        "type": "h4",
+        "text": "Milestone Status"
+      },
+      {
+        "type": "h4",
+        "text": "Current Focus"
+      },
+      {
+        "type": "h3",
+        "text": "adidas Team"
+      },
+      {
+        "type": "h3",
+        "text": "Baresquare Team"
+      },
+      {
+        "type": "h3",
+        "text": "Contact"
+      },
+      {
+        "type": "button",
+        "text": "Phase 1: FoundationCompleteMar 1, 2025 → Nov 30, 2025100% Complete (6/6 milestones)"
+      },
+      {
+        "type": "button",
+        "text": "Phase 2: Pilot TestingCurrentNov 1, 2025 → Dec 31, 2025In Progress - 27% Complete"
+      },
+      {
+        "type": "button",
+        "text": "Phase 3: Enterprise RolloutPlannedJan 1, 2026 → Mar 31, 2026"
+      },
+      {
+        "type": "button",
+        "text": "Phase 4: Scale & EnhancePlannedApr 1, 2026 → Dec 31, 2027"
+      }
+    ],
+    "wordCount": 395
+  },
+  {
+    "page": "Documents",
+    "url": "http://localhost:3000/documents",
+    "fullText": "A\nadidas AI L&D\nProject Hub\nHome\nExecutive Briefing\nWeekly Progress\nTimeline\nDocuments\nDocument Repository\nProject Documents\nCentral location for all project artifacts and materials\nStrategic Documents\nHigh-level overviews and strategic materials\nExecutive Briefing\nComprehensive overview for decision-makers and stakeholders\nNovember 21, 2025\n•\nPDF\n•\n3.6 MB\nDownload\nWebsite Structure Outline\nComplete blueprint for project website with 20 page specifications\nNovember 21, 2025\n•\nPDF\n•\n107 KB\nDownload\nMaster Guide & README\nOverview of all project documentation and how to navigate it\nNovember 21, 2025\n•\nPDF\n•\n111 KB\nDownload\nOperational Documents\nProgress reports and operational materials\nWeekly Progress Report (Nov 21)\nCurrent week status, action items, and upcoming milestones\nNovember 21, 2025\n•\nPDF\n•\n2.1 MB\nDownload\nProject Timeline & Roadmap\nDetailed timeline from March 2025 through 2026 with Gantt data\nNovember 21, 2025\n•\nPDF\n•\n165 KB\nDownload\nWeekly Progress Template\nTemplate for ongoing weekly status updates\nNovember 21, 2025\n•\nPDF\n•\n190 KB\nDownload\nHandover Documents\nTransition materials for project continuity\nProject Context Document\nComprehensive 21-page context for successor handover\nNovember 21, 2025\n•\nPDF\n•\n154 KB\nDownload\nStakeholder Map\nKey contacts, roles, and communication protocols\nNovember 21, 2025\n•\nPDF\n•\n148 KB\nDownload\nadidas Team\nPedro Silva - VP Talent Organization\nKarina - Senior Leadership\nLucas - L&D Technical Liaison\nDivya Jhamb - Learning Initiatives India\nBaresquare Team\nGeorgios Grigoriadis - CEO\nLars Boeddener - COO\nNikos Vogiatzis - Technical Lead\nContact\ngeorgios@baresquare.com\nlars@baresquare.com\nadidas AI Learning & Leadership Development Initiative - Project Hub\nLast Updated: November 21, 2025",
+    "structured": [
+      {
+        "type": "h1",
+        "text": "adidas AI L&D"
+      },
+      {
+        "type": "h1",
+        "text": "Project Documents"
+      },
+      {
+        "type": "h2",
+        "text": "Strategic Documents"
+      },
+      {
+        "type": "h3",
+        "text": "Executive Briefing"
+      },
+      {
+        "type": "h3",
+        "text": "Website Structure Outline"
+      },
+      {
+        "type": "h3",
+        "text": "Master Guide & README"
+      },
+      {
+        "type": "h2",
+        "text": "Operational Documents"
+      },
+      {
+        "type": "h3",
+        "text": "Weekly Progress Report (Nov 21)"
+      },
+      {
+        "type": "h3",
+        "text": "Project Timeline & Roadmap"
+      },
+      {
+        "type": "h3",
+        "text": "Weekly Progress Template"
+      },
+      {
+        "type": "h2",
+        "text": "Handover Documents"
+      },
+      {
+        "type": "h3",
+        "text": "Project Context Document"
+      },
+      {
+        "type": "h3",
+        "text": "Stakeholder Map"
+      },
+      {
+        "type": "h3",
+        "text": "adidas Team"
+      },
+      {
+        "type": "h3",
+        "text": "Baresquare Team"
+      },
+      {
+        "type": "h3",
+        "text": "Contact"
+      },
+      {
+        "type": "section",
+        "heading": "Strategic Documents",
+        "textLength": 420
+      },
+      {
+        "type": "section",
+        "heading": "Operational Documents",
+        "textLength": 414
+      },
+      {
+        "type": "section",
+        "heading": "Handover Documents",
+        "textLength": 272
+      }
+    ],
+    "wordCount": 261
+  }
+]
