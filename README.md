@@ -8,8 +8,7 @@ Production: [https://adidas-project-website.netlify.app](https://adidas-project-
 
 ## Features
 
-- **Landing Page**: Hero section, key stats, status dashboard, value proposition
-- **Executive Briefing**: Comprehensive overview for decision-makers
+- **Executive Briefing** (Homepage): Comprehensive overview for decision-makers
 - **Weekly Progress**: CSV-based task tracking with sortable/filterable tables
 - **CSV Task Tracker**:
   - 27 project tasks across 7 workstreams
@@ -67,9 +66,7 @@ npm run start
 ```
 adidas-project-website/
 ├── app/
-│   ├── page.tsx                           # Landing page
-│   ├── executive-briefing/
-│   │   └── page.tsx                      # Executive briefing
+│   ├── page.tsx                           # Executive Briefing (homepage)
 │   ├── weekly-progress/
 │   │   └── page.tsx                      # Weekly progress with task tracker
 │   ├── timeline/
@@ -94,7 +91,9 @@ adidas-project-website/
 │   ├── task-tracker-data.ts              # Auto-generated task data
 │   └── timeline-data.ts                   # Timeline milestones
 ├── docs/
-│   └── updating-tasks.md                  # Detailed task update guide
+│   ├── updating-tasks.md                  # Task update guide
+│   ├── content-analysis.md                # Detailed content analysis
+│   └── CONTENT-MANAGEMENT-GUIDE.md        # Content management guide
 ├── public/
 │   └── documents/                         # Static document files
 ├── netlify.toml                           # Netlify configuration
@@ -486,7 +485,9 @@ npx tsx lib/parse-task-csv.ts
 
 ## Documentation
 
+- **Content Management Guide**: See [docs/CONTENT-MANAGEMENT-GUIDE.md](docs/CONTENT-MANAGEMENT-GUIDE.md) for understanding what's editable vs. hardcoded
 - **Task Update Guide**: See [docs/updating-tasks.md](docs/updating-tasks.md) for detailed CSV instructions
+- **Content Analysis**: See [docs/content-analysis.md](docs/content-analysis.md) for detailed content breakdown
 - **Timeline Data**: See `lib/timeline-data.ts` for milestone structure
 - **Component Docs**: See inline TypeScript comments in component files
 
