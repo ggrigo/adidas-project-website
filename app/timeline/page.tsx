@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { timelineData, formatDate, getPhaseProgress, type TimelinePhase } from '@/lib/timeline-data';
 
 export default function Timeline() {
-  const [expandedPhase, setExpandedPhase] = useState<string | null>('phase-2');
+  const [expandedPhase, setExpandedPhase] = useState<string | null>('beta');
 
   const togglePhase = (phaseId: string) => {
     setExpandedPhase(expandedPhase === phaseId ? null : phaseId);
@@ -82,7 +82,7 @@ export default function Timeline() {
     <div className="min-h-screen bg-neutral-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 lg:py-20">
         {/* Header */}
-        <div className="mb-16 text-center">
+        <div className="mb-12 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-neutral-900 px-4 py-2 mb-6 shadow-lg">
             <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
@@ -90,11 +90,29 @@ export default function Timeline() {
             <span className="text-xs font-bold text-white uppercase tracking-wider">Project Timeline</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter text-neutral-950 mb-4">
-            Project Timeline & Roadmap
+            Self-Reflection Agent<br />Timeline & Roadmap
           </h1>
           <p className="text-lg md:text-xl text-neutral-600 font-medium max-w-2xl mx-auto">
-            Complete journey from March 2025 through 2027 - From foundation to strategic AI platform
+            September 2025 (W38) → April 2026 (W18) — From Alpha to Production
           </p>
+        </div>
+
+        {/* Note Banner */}
+        <div className="mb-12 rounded-2xl border-2 border-warning/30 bg-gradient-to-r from-warning-light/50 to-warning-light/20 p-6 shadow-soft">
+          <div className="flex items-start gap-4">
+            <div className="flex-shrink-0">
+              <svg className="w-6 h-6 text-warning" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="font-bold text-neutral-950 mb-1">Self-Reflection Agent Timeline Only</h3>
+              <p className="text-sm text-neutral-700 font-medium">
+                This timeline focuses on the <strong>Self-Reflection Agent</strong> (Leadership Self-Reflection Tool).
+                The Learning Agent follows a separate timeline and is currently awaiting deployment approval.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Visual Timeline Bar */}
@@ -296,10 +314,10 @@ export default function Timeline() {
               <div className="relative">
                 <h4 className="text-sm font-bold text-info uppercase tracking-wider mb-2">Current Focus</h4>
                 <p className="text-sm font-semibold text-neutral-700">
-                  Phase 2: Pilot Testing
+                  Beta Release (W49)
                 </p>
                 <p className="text-xs text-neutral-600 mt-2">
-                  Dec 2-3 executive meeting and mini pilot execution
+                  Mini-testing with 5-8 Directors (Dec 9-13)
                 </p>
               </div>
             </div>

@@ -47,26 +47,9 @@ export default function ExecutiveBriefing() {
             <span className="text-xs font-bold text-white uppercase tracking-wider">Executive Briefing</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter text-neutral-950 mb-4">
-            AI Learning & Leadership<br />Development Initiative
+            Agentic Talent<br />Development
           </h1>
-          <p className="text-lg md:text-xl text-neutral-600 font-medium mb-8">November 21, 2025</p>
-
-          {/* Download PDF Button */}
-          <div className="flex justify-center">
-            <a
-              href="/documents/executive-briefing.pdf"
-              download
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 rounded-xl bg-neutral-900 px-8 py-4 text-base font-bold text-white hover:bg-neutral-800 transition-all hover:scale-105 shadow-medium"
-            >
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-              </svg>
-              Download PDF
-              <span className="text-xs font-normal opacity-75">(3.6 MB)</span>
-            </a>
-          </div>
+          <p className="text-lg md:text-xl text-neutral-600 font-medium mb-8">Last update: December 2, 2025</p>
         </div>
 
         {/* Two-column layout: TOC + Content */}
@@ -122,7 +105,7 @@ export default function ExecutiveBriefing() {
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
-                        <span><strong>Leadership Self-Reflection Tool:</strong> Competency-based self-assessment and development planning</span>
+                        <span><strong>Self-Reflection Agent:</strong> Competency-based self-assessment and micro-action recommendations</span>
                       </li>
                     </ul>
                   </div>
@@ -142,7 +125,7 @@ export default function ExecutiveBriefing() {
                         <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
-                        <span>First HR AI deployment establishes governance and infrastructure for future innovation</span>
+                        <span>First HR GenAI deployment establishes governance and infrastructure for future innovation</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -154,13 +137,7 @@ export default function ExecutiveBriefing() {
                         <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
-                        <span>Privacy-first architecture with individual data ownership</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span>Scalable foundation for performance management, recruiting, and other HR domains</span>
+                        <span>Employee-controlled data with no passive monitoring — development insights remain personal unless explicitly shared</span>
                       </li>
                     </ul>
                   </div>
@@ -182,7 +159,7 @@ export default function ExecutiveBriefing() {
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
-                        <span><strong>Self-Reflection Tool:</strong> Mini pilot scheduled December 9-13, 2025</span>
+                        <span><strong>Self-Reflection Agent:</strong> Mini pilot scheduled December 9-13, 2025</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-warning mt-2" />
@@ -200,49 +177,37 @@ export default function ExecutiveBriefing() {
 
               <div className="space-y-6">
                 <div className="relative overflow-hidden rounded-2xl border-l-4 border-info bg-white p-8 shadow-soft">
-                  <h3 className="text-2xl font-bold text-neutral-950 mb-4">For Employees (60,000)</h3>
+                  <h3 className="text-2xl font-bold text-neutral-950 mb-4">For Employees (30,000 corporate users)</h3>
                   <ul className="space-y-3 text-neutral-700 font-medium">
                     <li className="flex items-start gap-3">
                       <svg className="flex-shrink-0 w-5 h-5 text-info mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Reduce time to find relevant learning:</strong> From 30+ minutes to under 5 minutes</span>
+                      <span>Find relevant learning in under 5 minutes; no more navigating fragmented content scattered across LinkedIn Learning, SharePoint, and internal academies. Recommendations surface based on what matters, not what's trending.</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <svg className="flex-shrink-0 w-5 h-5 text-info mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Personalized recommendations:</strong> AI understands your role, skills, and career goals</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <svg className="flex-shrink-0 w-5 h-5 text-info mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <span><strong>Unified experience:</strong> Self-reflection insights inform learning recommendations</span>
+                      <span>Receive personalized suggestions based on role, skills, and career goals: as aspirations shift or positions change, the recommendations evolve automatically. Learning becomes a continuous companion, not a periodic chore.</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="relative overflow-hidden rounded-2xl border-l-4 border-success bg-white p-8 shadow-soft">
-                  <h3 className="text-2xl font-bold text-neutral-950 mb-4">For Leaders (10,000)</h3>
+                  <h3 className="text-2xl font-bold text-neutral-950 mb-4">For Leaders (10,000 people managers)</h3>
                   <ul className="space-y-3 text-neutral-700 font-medium">
                     <li className="flex items-start gap-3">
                       <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Structured self-reflection:</strong> Against nine leadership competencies</span>
+                      <span>Build self-reflection habits through private assessments against nine leadership competencies; see how results compare to peers while individual responses stay confidential. Structure replaces guesswork in understanding where to focus.</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Actionable development plans:</strong> Personalized micro-actions and learning paths</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <svg className="flex-shrink-0 w-5 h-5 text-success mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <span><strong>Progress tracking:</strong> Private, user-controlled development journey</span>
+                      <span>Receive micro-actions applicable this week: practical behavior changes like "start one-on-ones with recognition" rather than courses to complete someday. Development happens in the flow of work, not outside it.</span>
                     </li>
                   </ul>
                 </div>
@@ -254,111 +219,242 @@ export default function ExecutiveBriefing() {
                       <svg className="flex-shrink-0 w-5 h-5 text-ai mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Skills gap visibility:</strong> Aggregated, anonymized data on development needs</span>
+                      <span>Gain aggregated visibility into skills gaps and leadership development needs across functions and regions. Strategic decisions on training investment become data-informed rather than assumption-driven.</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <svg className="flex-shrink-0 w-5 h-5 text-ai mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Strategic insights:</strong> Identify training priorities and leadership development trends</span>
+                      <span>Operationalize the Leadership Framework at scale without additional change management campaigns; employees engage with competencies through the tool, not through presentations. Adoption becomes invisible.</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <svg className="flex-shrink-0 w-5 h-5 text-ai mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      <span><strong>Scalable infrastructure:</strong> Foundation for future AI innovations in talent management</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <svg className="flex-shrink-0 w-5 h-5 text-ai mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <span><strong>Cost efficiency:</strong> Minimal ongoing operational costs, leverages existing Microsoft investment</span>
+                      <span>Establish enterprise AI infrastructure — governance frameworks, security protocols, and Azure architecture that future HR applications inherit. Every subsequent agent launches faster and cheaper because the foundation exists.</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </section>
 
-            {/* Technical Foundation */}
+            {/* Technical Foundation - OPTION A: Full Version */}
             <section id="technical" className="mb-20 scroll-mt-24">
-              <h2 className="text-3xl md:text-4xl font-black tracking-tight text-neutral-950 mb-8">Technical Foundation</h2>
+              <div className="mb-6 p-4 rounded-xl bg-warning-light/50 border-2 border-warning/30">
+                <p className="text-sm font-bold text-warning-dark">OPTION A: "Why This Works at adidas" (Full Version) — Review and compare with Option B below</p>
+              </div>
+
+              <h2 className="text-3xl md:text-4xl font-black tracking-tight text-neutral-950 mb-8">Why This Works at adidas</h2>
 
               <div className="space-y-6">
-                <div className="relative overflow-hidden rounded-2xl border-2 border-neutral-200 bg-gradient-to-br from-neutral-50 to-white p-8 shadow-soft">
-                  <h3 className="text-xl font-bold text-neutral-950 mb-4">Built entirely on Microsoft Azure/365:</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="flex items-center gap-3 p-4 rounded-xl bg-white border border-neutral-200">
-                      <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-info/10 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-info" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
+                {/* No new platforms */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-success/20 bg-gradient-to-br from-success-light/30 via-white to-white p-8 shadow-soft">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-success/5 rounded-full blur-2xl" />
+                  <div className="relative">
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4 flex items-center gap-3">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-success/10 flex items-center justify-center">
+                        <svg className="w-6 h-6 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
-                      <span className="font-semibold text-neutral-700">Microsoft Copilot Studio</span>
-                    </div>
-                    <div className="flex items-center gap-3 p-4 rounded-xl bg-white border border-neutral-200">
-                      <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-success/10 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
-                        </svg>
-                      </div>
-                      <span className="font-semibold text-neutral-700">Power Platform</span>
-                    </div>
-                    <div className="flex items-center gap-3 p-4 rounded-xl bg-white border border-neutral-200">
-                      <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-warning/10 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-warning" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" />
-                        </svg>
-                      </div>
-                      <span className="font-semibold text-neutral-700">SharePoint Online</span>
-                    </div>
-                    <div className="flex items-center gap-3 p-4 rounded-xl bg-white border border-neutral-200">
-                      <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-ai/10 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-ai" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" clipRule="evenodd" />
-                        </svg>
-                      </div>
-                      <span className="font-semibold text-neutral-700">Individual OneDrive</span>
-                    </div>
+                      No new platforms — fewer, actually
+                    </h3>
+                    <ul className="space-y-3 text-neutral-700 font-medium ml-13">
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
+                        <span>100% Microsoft stack (Power Apps, Copilot Studio, SharePoint, Entra)</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
+                        <span>Integrates with Learning Hub, not beside it</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
+                        <span>Consolidates fragmented learning touchpoints into one AI layer</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
+                        <span>Pilots AI/HR micro-apps pattern with Power Apps</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
 
-                <div className="rounded-2xl bg-white border-2 border-neutral-200 p-8 shadow-soft">
-                  <h3 className="text-xl font-bold text-neutral-950 mb-6">Key Innovations:</h3>
-                  <div className="space-y-4">
-                    {[
-                      { number: '1', title: 'Privacy-first architecture', desc: 'User data stored in personal OneDrive, not central database' },
-                      { number: '2', title: 'Intelligent mapping', desc: 'AI connects roles → skills → learning → competencies' },
-                      { number: '3', title: 'Seamless integration', desc: 'SharePoint plugins integrated into existing Learning Hub' },
-                      { number: '4', title: 'Zero external licenses', desc: '100% Microsoft stack, no additional vendors' },
-                    ].map((item) => (
-                      <div key={item.number} className="flex gap-4 p-4 rounded-xl bg-neutral-50 hover:bg-neutral-100 transition-colors">
-                        <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-gradient-to-br from-info to-info-dark text-white flex items-center justify-center font-bold text-sm">
-                          {item.number}
-                        </div>
-                        <div>
-                          <h4 className="font-bold text-neutral-950 mb-1">{item.title}</h4>
-                          <p className="text-sm text-neutral-600 font-medium">{item.desc}</p>
-                        </div>
+                {/* IT says yes */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-info/20 bg-gradient-to-br from-info-light/30 via-white to-white p-8 shadow-soft">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-info/5 rounded-full blur-2xl" />
+                  <div className="relative">
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4 flex items-center gap-3">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-info/10 flex items-center justify-center">
+                        <svg className="w-6 h-6 text-info" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
                       </div>
-                    ))}
+                      IT says yes
+                    </h3>
+                    <ul className="space-y-3 text-neutral-700 font-medium ml-13">
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
+                        <span>Corporate cloud = pre-approved infrastructure</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
+                        <span>Microsoft Entra integration = user context without new data pipelines</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
+                        <span>No external vendors, no new security reviews</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
 
-                <div className="relative overflow-hidden rounded-2xl border-2 border-info/30 bg-gradient-to-br from-info-light/30 to-white p-8 shadow-medium">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-info/10 rounded-full blur-3xl" />
-                  <div className="relative flex items-start gap-4">
-                    <div className="flex-shrink-0">
+                {/* Compliance by default */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-ai/20 bg-gradient-to-br from-ai-light/30 via-white to-white p-8 shadow-soft">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-ai/5 rounded-full blur-2xl" />
+                  <div className="relative">
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4 flex items-center gap-3">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-ai/10 flex items-center justify-center">
+                        <svg className="w-6 h-6 text-ai" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                      </div>
+                      Compliance by default
+                    </h3>
+                    <ul className="space-y-3 text-neutral-700 font-medium ml-13">
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-ai mt-2" />
+                        <span>Data stays in adidas Microsoft tenant</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-ai mt-2" />
+                        <span>No employee data leaves the corporate boundary</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-ai mt-2" />
+                        <span>Privacy architecture designed with IT, not around IT</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-ai mt-2" />
+                        <span>Corporate cloud = simpler data compliance than external applications</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Every AI app after this is easier */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-warning/30 bg-gradient-to-br from-warning-light/50 to-white p-8 shadow-medium">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-warning/10 rounded-full blur-3xl" />
+                  <div className="relative">
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4 flex items-center gap-3">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-warning/10 flex items-center justify-center">
+                        <svg className="w-6 h-6 text-warning" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                      </div>
+                      Every AI app after this is easier
+                    </h3>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+                      <div className="text-center p-4 rounded-xl bg-white border border-neutral-200">
+                        <div className="text-2xl font-black text-success mb-1">Done</div>
+                        <div className="text-xs font-semibold text-neutral-600">Governance frameworks</div>
+                      </div>
+                      <div className="text-center p-4 rounded-xl bg-white border border-neutral-200">
+                        <div className="text-2xl font-black text-success mb-1">Done</div>
+                        <div className="text-xs font-semibold text-neutral-600">Security protocols</div>
+                      </div>
+                      <div className="text-center p-4 rounded-xl bg-white border border-neutral-200">
+                        <div className="text-2xl font-black text-success mb-1">Done</div>
+                        <div className="text-xs font-semibold text-neutral-600">Azure architecture</div>
+                      </div>
+                      <div className="text-center p-4 rounded-xl bg-white border border-neutral-200">
+                        <div className="text-2xl font-black text-success mb-1">Proven</div>
+                        <div className="text-xs font-semibold text-neutral-600">Power Platform patterns</div>
+                      </div>
+                    </div>
+                    <p className="text-neutral-700 font-medium mt-6 text-center">
+                      Each subsequent HR AI agent launches <strong>faster and cheaper</strong> because the foundation exists.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Technical Foundation - OPTION B: 3 Nos Version */}
+            <section id="technical-b" className="mb-20 scroll-mt-24">
+              <div className="mb-6 p-4 rounded-xl bg-info-light/50 border-2 border-info/30">
+                <p className="text-sm font-bold text-info-dark">OPTION B: "Why This Works at adidas" (Punchy 3 Nos Version) — Compare with Option A above</p>
+              </div>
+
+              <h2 className="text-3xl md:text-4xl font-black tracking-tight text-neutral-950 mb-8">Why This Works at adidas</h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* No new platforms */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-success/30 bg-gradient-to-br from-success-light/50 to-white p-8 shadow-soft">
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-success/10 rounded-full blur-2xl" />
+                  <div className="relative text-center">
+                    <div className="w-16 h-16 rounded-2xl bg-success/10 flex items-center justify-center mx-auto mb-4">
+                      <svg className="w-8 h-8 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-black text-neutral-950 mb-3">No new platforms</h3>
+                    <p className="text-neutral-700 font-medium text-sm leading-relaxed">
+                      Built entirely on Microsoft 365 you already pay for. Power Apps, Copilot Studio, SharePoint, Entra — all corporate-approved.
+                    </p>
+                  </div>
+                </div>
+
+                {/* No IT surprises */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-info/30 bg-gradient-to-br from-info-light/50 to-white p-8 shadow-soft">
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-info/10 rounded-full blur-2xl" />
+                  <div className="relative text-center">
+                    <div className="w-16 h-16 rounded-2xl bg-info/10 flex items-center justify-center mx-auto mb-4">
                       <svg className="w-8 h-8 text-info" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-black text-neutral-950 mb-3">No IT surprises</h3>
+                    <p className="text-neutral-700 font-medium text-sm leading-relaxed">
+                      Corporate cloud, Entra integration, pre-approved patterns. Data never leaves adidas tenant. Compliance is automatic.
+                    </p>
+                  </div>
+                </div>
+
+                {/* No repeated work */}
+                <div className="relative overflow-hidden rounded-2xl border-2 border-warning/30 bg-gradient-to-br from-warning-light/50 to-white p-8 shadow-soft">
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-warning/10 rounded-full blur-2xl" />
+                  <div className="relative text-center">
+                    <div className="w-16 h-16 rounded-2xl bg-warning/10 flex items-center justify-center mx-auto mb-4">
+                      <svg className="w-8 h-8 text-warning" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
-                    <div>
-                      <h4 className="font-bold text-neutral-950 mb-2">Infrastructure Value</h4>
-                      <p className="text-neutral-700 font-medium leading-relaxed">
-                        This deployment establishes reusable AI governance, security frameworks, and technical architecture
-                        that accelerates future HR AI projects by <strong>6+ months per initiative</strong>.
-                      </p>
+                    <h3 className="text-xl font-black text-neutral-950 mb-3">No repeated work</h3>
+                    <p className="text-neutral-700 font-medium text-sm leading-relaxed">
+                      Every future HR AI agent inherits this foundation. Governance, security, architecture — done once, reused forever.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Foundation callout */}
+              <div className="mt-8 relative overflow-hidden rounded-2xl border-2 border-neutral-200 bg-gradient-to-r from-neutral-50 to-white p-8 shadow-soft">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center">
+                      <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
                     </div>
+                    <div>
+                      <h4 className="font-bold text-neutral-950">The Microsoft Advantage</h4>
+                      <p className="text-sm text-neutral-600 font-medium">Integrates with Learning Hub. Uses Entra for user context. Pilots Power Apps for HR micro-apps.</p>
+                    </div>
+                  </div>
+                  <div className="text-center md:text-right">
+                    <div className="text-3xl font-black text-neutral-950">6+ months</div>
+                    <div className="text-sm font-semibold text-neutral-600">saved per future AI initiative</div>
                   </div>
                 </div>
               </div>

@@ -21,297 +21,408 @@ export interface TimelinePhase {
 
 export const timelineData: TimelinePhase[] = [
   {
-    id: 'phase-1',
-    name: 'Phase 1: Foundation',
-    shortName: 'Foundation',
-    startDate: '2025-03-01',
-    endDate: '2025-11-30',
+    id: 'alpha',
+    name: 'Alpha Release (Working Prototype)',
+    shortName: 'Alpha',
+    startDate: '2025-09-15',
+    endDate: '2025-10-31',
     status: 'complete',
     color: 'success',
     keyDeliverables: [
-      'SOW signed and engagement initiated',
-      'Workshop completed with key stakeholders',
-      'Infrastructure setup (Azure, SharePoint, Power Platform)',
-      'Prototype development for both solutions',
-      'Technical architecture finalized'
+      '100% Microsoft Cloud-native solution',
+      'Clickable prototype with basic UI/UX',
+      '24 questions with optional comment per question',
+      'Automatic job position-to-Leadership Cohort matching',
+      'Micro-actions generation engine v1',
+      'English language support',
+      'Directors Leadership Cohort support',
+      'Resume/view last submission feature'
     ],
     milestones: [
       {
-        id: 'm1-1',
-        name: 'Initial Engagement',
-        date: '2025-03-15',
-        description: 'First discussions with adidas stakeholders',
-        owner: 'Georgios Grigoriadis',
+        id: 'a-1',
+        name: 'Project Kickoff Meeting',
+        date: '2025-09-15',
+        description: 'W38 - Initial project kickoff with stakeholders',
+        owner: 'Baresquare / adidas',
         status: 'complete'
       },
       {
-        id: 'm1-2',
-        name: 'SOW Signed',
-        date: '2025-06-10',
-        description: 'Statement of Work finalized and signed',
-        owner: 'Georgios Grigoriadis',
-        status: 'complete'
-      },
-      {
-        id: 'm1-3',
-        name: 'Discovery Workshop',
-        date: '2025-08-04',
-        description: 'Face-to-face workshop in Herzogenaurach',
-        owner: 'Georgios Grigoriadis',
-        status: 'complete'
-      },
-      {
-        id: 'm1-4',
-        name: 'Infrastructure Setup Complete',
-        date: '2025-09-30',
-        description: 'Azure environment and SharePoint integration ready',
-        owner: 'Nikos Vogiatzis',
-        status: 'complete'
-      },
-      {
-        id: 'm1-5',
-        name: 'Learning Agent Prototype',
+        id: 'a-2',
+        name: 'Power Apps Canvas Development',
         date: '2025-10-15',
-        description: 'Initial working prototype demonstrated',
-        owner: 'Nikos Vogiatzis',
+        description: 'W39-W44 - App development in Microsoft Power Apps canvas',
+        owner: 'Baresquare',
         status: 'complete'
       },
       {
-        id: 'm1-6',
-        name: 'Self-Reflection Tool Prototype',
-        date: '2025-11-01',
-        description: 'First version ready for testing',
-        owner: 'Panayotis',
+        id: 'a-3',
+        name: 'Copilot Studio AI Agent Training',
+        date: '2025-10-08',
+        description: 'W40-W43 - AI Agent training and prompt engineering',
+        owner: 'Baresquare',
+        status: 'complete'
+      },
+      {
+        id: 'a-4',
+        name: 'Privacy Assessment Meeting',
+        date: '2025-10-20',
+        description: 'W43 - Privacy assessment completed',
+        owner: 'Baresquare / adidas',
+        status: 'complete'
+      },
+      {
+        id: 'a-5',
+        name: 'Power Automate Flow',
+        date: '2025-10-15',
+        description: 'W41-W42 - Job position-to-Leadership Cohort matching',
+        owner: 'Baresquare',
+        status: 'complete'
+      },
+      {
+        id: 'a-6',
+        name: 'Alpha Release',
+        date: '2025-10-28',
+        description: 'W44 - Working prototype released',
+        owner: 'Baresquare',
+        status: 'complete'
+      },
+      {
+        id: 'a-7',
+        name: 'Micro-actions Engine v1',
+        date: '2025-10-31',
+        description: 'W44 - First version of micro-actions generation',
+        owner: 'Baresquare / adidas',
+        status: 'complete'
+      },
+      {
+        id: 'a-8',
+        name: 'Main UI Copies & Logo Sign-off',
+        date: '2025-11-07',
+        description: 'W45-W46 - UI copies and images approved',
+        owner: 'adidas',
+        status: 'complete'
+      },
+      {
+        id: 'a-9',
+        name: 'InfoSec / Data Privacy Questionnaire',
+        date: '2025-11-07',
+        description: 'W45-W46 - Architectural designs completed',
+        owner: 'Baresquare / adidas',
         status: 'complete'
       }
     ]
   },
   {
-    id: 'phase-2',
-    name: 'Phase 2: Pilot Testing',
-    shortName: 'Pilot Testing',
+    id: 'beta',
+    name: 'Beta Release (MVP for Mini-Testing)',
+    shortName: 'Beta',
     startDate: '2025-11-01',
-    endDate: '2025-12-31',
+    endDate: '2025-12-15',
     status: 'current',
     color: 'info',
     keyDeliverables: [
-      'Mini pilot planning and participant recruitment',
-      'Executive briefing and documentation',
-      'Face-to-face meeting with stakeholders',
-      'Mini pilot execution (Dec 9-13)',
-      'Pilot results analysis and recommendations'
+      'UI visual refresh (phase I)',
+      'Enhanced micro-actions (v3)',
+      'Actions rating feature (thumbs up/down)',
+      'Qualitative feedback collection',
+      'Deployed to adidas PRD_Learning_Campus env',
+      'Any user with link can test MVP version'
     ],
     milestones: [
       {
-        id: 'm2-1',
-        name: 'Mini Pilot Planning',
-        date: '2025-11-15',
-        description: 'Pilot scope and timeline finalized',
-        owner: 'Lars Boeddener',
+        id: 'b-1',
+        name: 'Task Inventory Workshop',
+        date: '2025-11-11',
+        description: 'W46 - Task inventory and UX review workshops',
+        owner: 'Baresquare / adidas',
         status: 'complete'
       },
       {
-        id: 'm2-2',
-        name: 'Executive Briefing Completed',
+        id: 'b-2',
+        name: 'Quick-wins UI Updates',
+        date: '2025-11-14',
+        description: 'W45-W46 - Initial UI improvements',
+        owner: 'Baresquare',
+        status: 'complete'
+      },
+      {
+        id: 'b-3',
+        name: 'Micro-actions Iterations (v3)',
+        date: '2025-11-14',
+        description: 'W45-W46 - Enhanced micro-actions',
+        owner: 'Baresquare / adidas',
+        status: 'complete'
+      },
+      {
+        id: 'b-4',
+        name: 'Thumbs Up/Down Feedback',
         date: '2025-11-21',
-        description: 'Comprehensive documentation prepared',
-        owner: 'Lars Boeddener',
+        description: 'W46-W47 - Qualitative feedback feature',
+        owner: 'Baresquare',
         status: 'complete'
       },
       {
-        id: 'm2-3',
-        name: 'Zsofia Successor Announcement',
-        date: '2025-11-29',
-        description: 'New project lead identified',
-        owner: 'Zsofia Pior',
-        status: 'pending'
+        id: 'b-5',
+        name: 'IC Tool Session',
+        date: '2025-11-25',
+        description: 'W48 - Individual Contributors tool session',
+        owner: 'Baresquare / adidas',
+        status: 'complete'
       },
       {
-        id: 'm2-4',
-        name: 'Face-to-Face Meeting',
-        date: '2025-12-02',
-        description: 'Executive meeting in Herzogenaurach (Dec 2-3)',
-        owner: 'Georgios Grigoriadis',
-        status: 'pending'
+        id: 'b-6',
+        name: 'UI Visual Refresh (Phase I)',
+        date: '2025-11-28',
+        description: 'W48 - First visual refresh completed',
+        owner: 'Baresquare / adidas',
+        status: 'complete'
       },
       {
-        id: 'm2-5',
-        name: 'Mini Pilot Kickoff',
+        id: 'b-7',
+        name: 'Beta Version Release',
+        date: '2025-12-01',
+        description: 'W49 - Beta released for mini-testing',
+        owner: 'Baresquare',
+        status: 'complete'
+      },
+      {
+        id: 'b-8',
+        name: 'Mini-Testing with Directors',
         date: '2025-12-09',
-        description: '5-8 leaders begin testing Self-Reflection Tool',
-        owner: 'Lars Boeddener',
+        description: 'W49 - 5-8 Directors testing the MVP',
+        owner: 'Baresquare / adidas',
         status: 'pending'
       },
       {
-        id: 'm2-6',
-        name: 'Mini Pilot Complete',
-        date: '2025-12-13',
-        description: 'Pilot concluded, feedback collected',
-        owner: 'Lars Boeddener',
-        status: 'pending'
-      },
-      {
-        id: 'm2-7',
-        name: 'LeanIX Approval (Learning Agent)',
-        date: '2025-12-20',
-        description: 'Infrastructure approval for deployment',
-        owner: 'Lucas',
-        status: 'at-risk'
-      },
-      {
-        id: 'm2-8',
-        name: 'Phase 1 Billing Complete',
-        date: '2025-12-05',
-        description: 'SAP Goods Receipt confirmed for Phase 1',
-        owner: 'Zsofia',
-        status: 'complete'
-      },
-      {
-        id: 'm2-9',
-        name: 'Product Roadmap Review',
-        date: '2025-12-10',
-        description: 'Post-MVP test roadmap review session',
-        owner: 'Nikos',
-        status: 'pending'
-      },
-      {
-        id: 'm2-10',
-        name: 'Learning Recommendations Mapped',
+        id: 'b-9',
+        name: 'MVP Testing Recap Workshop',
         date: '2025-12-12',
-        description: 'Director cohort learning recs deadline',
-        owner: 'Zsofia/Lars',
+        description: "W50 - Recap workshop, Zsofia's last week",
+        owner: 'Baresquare / adidas',
         status: 'pending'
-      },
+      }
+    ]
+  },
+  {
+    id: 'rc',
+    name: 'Release Candidate (Pilot Testing)',
+    shortName: 'RC',
+    startDate: '2025-12-15',
+    endDate: '2026-02-07',
+    status: 'planned',
+    color: 'neutral',
+    keyDeliverables: [
+      'UI visual refresh (phase II based on mini-testing feedback)',
+      'Learning recommendations feature (TBC)',
+      'Download report functionality',
+      'Questions finalized for remaining Cohorts',
+      'Analytics requirements defined',
+      'Deployed to adidas PRD_Learning_Campus env',
+      'Pilot testing with 40-50 Directors'
+    ],
+    milestones: [
       {
-        id: 'm2-11',
-        name: 'System Integration Test Complete',
+        id: 'rc-1',
+        name: 'Mini-Testing Feedback Analysis',
         date: '2025-12-15',
-        description: 'SIT complete on adidas environment',
-        owner: 'Nikos',
+        description: 'W49-W50 - Feedback analysis and prioritization',
+        owner: 'Baresquare / adidas',
+        status: 'pending'
+      },
+      {
+        id: 'rc-2',
+        name: 'Christmas Break',
+        date: '2025-12-23',
+        description: 'W51-W52 - Holiday break',
+        owner: 'All',
+        status: 'pending'
+      },
+      {
+        id: 'rc-3',
+        name: 'New Year Break',
+        date: '2026-01-01',
+        description: 'W1 - Holiday break',
+        owner: 'All',
+        status: 'pending'
+      },
+      {
+        id: 'rc-4',
+        name: 'Prioritized Input Implementation',
+        date: '2026-01-17',
+        description: 'W50-W3 - Visual refresh phase II and prioritized fixes',
+        owner: 'Baresquare',
+        status: 'pending'
+      },
+      {
+        id: 'rc-5',
+        name: 'Learning Recommendations Feature',
+        date: '2026-01-24',
+        description: 'W1-W4 - Learning recommendations implementation (TBC)',
+        owner: 'Baresquare / adidas',
+        status: 'pending'
+      },
+      {
+        id: 'rc-6',
+        name: 'Download Report Feature',
+        date: '2026-01-24',
+        description: 'W1-W4 - Report download functionality',
+        owner: 'Baresquare / adidas',
+        status: 'pending'
+      },
+      {
+        id: 'rc-7',
+        name: 'Finalize Questions for Remaining Cohorts',
+        date: '2026-01-24',
+        description: 'W1-W4 - Questions for all Leadership Cohorts',
+        owner: 'adidas',
+        status: 'pending'
+      },
+      {
+        id: 'rc-8',
+        name: 'System Integration Testing (SIT)',
+        date: '2026-01-31',
+        description: 'W3-W4 - SIT on adidas environment',
+        owner: 'Baresquare',
+        status: 'pending'
+      },
+      {
+        id: 'rc-9',
+        name: 'RC Version Release',
+        date: '2026-02-03',
+        description: 'W5 - Release Candidate deployed',
+        owner: 'Baresquare',
+        status: 'pending'
+      },
+      {
+        id: 'rc-10',
+        name: 'Pilot Testing W1 (40-50 Directors)',
+        date: '2026-02-03',
+        description: 'W5 - First week of pilot testing',
+        owner: 'Baresquare / adidas',
+        status: 'pending'
+      },
+      {
+        id: 'rc-11',
+        name: 'Pilot Testing W2',
+        date: '2026-02-10',
+        description: 'W6 - Second week of pilot testing',
+        owner: 'Baresquare / adidas',
+        status: 'pending'
+      },
+      {
+        id: 'rc-12',
+        name: 'Pilot Testing W3',
+        date: '2026-02-17',
+        description: 'W7 - Third week of pilot testing',
+        owner: 'Baresquare / adidas',
         status: 'pending'
       }
     ]
   },
   {
-    id: 'phase-3',
-    name: 'Phase 3: Enterprise Rollout',
-    shortName: 'Enterprise Rollout',
-    startDate: '2026-01-01',
-    endDate: '2026-03-31',
+    id: 'prod',
+    name: 'Production Release (April 2026)',
+    shortName: 'Production',
+    startDate: '2026-02-17',
+    endDate: '2026-04-30',
     status: 'planned',
     color: 'neutral',
     keyDeliverables: [
-      'Director cohort pilot (80-100 leaders)',
-      'Infrastructure scaling and optimization',
-      'Learning Agent enterprise deployment',
-      'Self-Reflection Tool enterprise launch',
-      'User training and support materials'
+      'Deployed to DEV and PRD adidas environment',
+      'Linked from Learning Hub 2.0 SharePoint page',
+      '4 Leadership Cohorts support',
+      'Additional languages (TBD)',
+      'Resume progress / view past submissions',
+      'Analytics dashboard / feedback sentiment analysis'
     ],
     milestones: [
       {
-        id: 'm3-1',
-        name: 'UI Copy Finalized for Pilot',
-        date: '2026-01-14',
-        description: 'All UI copy and privacy statements approved',
-        owner: 'Zsofia/Nikos',
+        id: 'p-1',
+        name: 'Pilot Testing Feedback Analysis',
+        date: '2026-02-24',
+        description: 'W8-W9 - Feedback analysis and prioritization',
+        owner: 'Baresquare / adidas',
         status: 'pending'
       },
       {
-        id: 'm3-2',
-        name: 'Director Cohort Pilot Start',
-        date: '2026-01-15',
-        description: '80-100 directors begin using Self-Reflection Tool',
-        owner: 'Lars',
+        id: 'p-2',
+        name: 'Prioritized Input Implementation',
+        date: '2026-03-14',
+        description: 'W9-W12 - Implementation of prioritized changes',
+        owner: 'Baresquare',
         status: 'pending'
       },
       {
-        id: 'm3-3',
-        name: 'InfoSec Approval Complete',
-        date: '2026-01-26',
-        description: 'InfoSec signs off on LeanIX entry',
-        owner: 'Lukas',
+        id: 'p-3',
+        name: 'Resume Progress / View Past Submissions',
+        date: '2026-03-28',
+        description: 'W10-W13 - Refactoring for resume/history feature (TBC)',
+        owner: 'Baresquare',
         status: 'pending'
       },
       {
-        id: 'm3-4',
-        name: 'Learning Agent Deployment',
-        date: '2026-02-01',
-        description: 'Learning Agent goes live for all employees',
-        owner: 'TBD',
+        id: 'p-4',
+        name: 'SharePoint Integration (LH2)',
+        date: '2026-04-04',
+        description: 'W10-W14 - Integration with Learning Hub 2.0',
+        owner: 'Baresquare / NIIT',
         status: 'pending'
       },
       {
-        id: 'm3-5',
-        name: 'Privacy Approval Complete',
-        date: '2026-02-12',
-        description: 'Privacy team signs off on LeanIX entry',
-        owner: 'Lukas/Lars',
+        id: 'p-5',
+        name: 'Analytics Implementation',
+        date: '2026-04-04',
+        description: 'W11-W14 - Analytics dashboard development',
+        owner: 'Baresquare',
         status: 'pending'
       },
       {
-        id: 'm3-6',
-        name: 'Infrastructure Scaling Complete',
-        date: '2026-02-15',
-        description: 'Systems optimized for enterprise load',
-        owner: 'Nikos Vogiatzis',
+        id: 'p-6',
+        name: 'Questions for New Cohorts',
+        date: '2026-04-04',
+        description: 'W12-W14 - Implementation for additional Cohorts',
+        owner: 'Baresquare',
         status: 'pending'
       },
       {
-        id: 'm3-7',
-        name: 'Enterprise Launch',
-        date: '2026-03-01',
-        description: 'Both solutions available to all 60,000 employees',
-        owner: 'TBD',
-        status: 'pending'
-      }
-    ]
-  },
-  {
-    id: 'phase-4',
-    name: 'Phase 4: Scale & Enhance',
-    shortName: 'Scale & Enhance',
-    startDate: '2026-04-01',
-    endDate: '2027-12-31',
-    status: 'planned',
-    color: 'neutral',
-    keyDeliverables: [
-      'Advanced AI capabilities and features',
-      'Integration with additional adidas systems',
-      'Expanded use cases and applications',
-      'Platform optimization and enhancements',
-      'Strategic roadmap for 2027+'
-    ],
-    milestones: [
-      {
-        id: 'm4-1',
-        name: 'Q2 2026: Integration & Expansion',
-        date: '2026-06-30',
-        description: 'Additional system integrations completed',
-        owner: 'TBD',
+        id: 'p-7',
+        name: 'Data Retention/Deletion Policy',
+        date: '2026-04-04',
+        description: 'W13-W14 - Policy enforcement implementation',
+        owner: 'Baresquare / adidas',
         status: 'pending'
       },
       {
-        id: 'm4-2',
-        name: 'Q3 2026: Advanced Capabilities',
-        date: '2026-09-30',
-        description: 'New AI features and enhancements launched',
-        owner: 'TBD',
+        id: 'p-8',
+        name: 'System Integration Testing (SIT)',
+        date: '2026-04-11',
+        description: 'W14 - Final SIT before production',
+        owner: 'Baresquare',
         status: 'pending'
       },
       {
-        id: 'm4-3',
-        name: 'Q4 2026: Platform Optimization',
-        date: '2026-12-31',
-        description: 'Performance improvements and refinements',
-        owner: 'TBD',
+        id: 'p-9',
+        name: 'PROD Release',
+        date: '2026-04-13',
+        description: 'W15 - Production deployment',
+        owner: 'Baresquare',
         status: 'pending'
       },
       {
-        id: 'm4-4',
-        name: '2027: Strategic Platform',
-        date: '2027-12-31',
-        description: 'Foundation for future AI initiatives',
-        owner: 'TBD',
+        id: 'p-10',
+        name: 'Hypercare Support',
+        date: '2026-04-27',
+        description: 'W15-W18 - Post-release support period',
+        owner: 'Baresquare',
+        status: 'pending'
+      },
+      {
+        id: 'p-11',
+        name: 'Technical Documentation',
+        date: '2026-04-27',
+        description: 'W15-W18 - Documentation finalization',
+        owner: 'Baresquare',
         status: 'pending'
       }
     ]
