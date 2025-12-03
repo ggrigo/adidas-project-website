@@ -8,7 +8,7 @@ export default function ExecutiveBriefing() {
   const sections = [
     { id: 'at-a-glance', label: 'At a Glance' },
     { id: 'business-impact', label: 'Business Impact' },
-    { id: 'technical', label: 'Technical Foundation' },
+    { id: 'technical', label: 'Why This Works' },
     { id: 'journey', label: 'Project Journey' },
     { id: 'next', label: "What's Next" },
     { id: 'roadmap', label: '2026 Roadmap' },
@@ -323,11 +323,12 @@ export default function ExecutiveBriefing() {
                 <div className="space-y-6">
                   {[
                     { date: 'March 2025', desc: 'Initial engagement on Learning Agent concept', color: 'info' },
-                    { date: 'June 2025', desc: 'Learning Agent SOW signed, scope expanded to include Self-Reflection Tool', color: 'info' },
+                    { date: 'June 2025', desc: 'Learning Agent SOW signed, initial engagement for Self-Reflection Agent', color: 'info' },
                     { date: 'August 2025', desc: 'Face-to-face workshop, technical architecture finalized', color: 'success' },
+                    { date: 'Sep 2025', desc: 'Self-Reflection Agent SOW signed', color: 'success' },
                     { date: 'Aug-Nov 2025', desc: 'Infrastructure setup, AI Committee approval, prototype development', color: 'success' },
                     { date: 'November 2025', desc: 'Projects ready for pilot testing', color: 'success' },
-                    { date: 'December 2025', desc: 'Mini pilot with 5-8 directors, transition to new project lead', color: 'warning' },
+                    { date: 'December 2025', desc: 'Mini pilot with 5-8 directors, transition to new project lead', color: 'success' },
                     { date: 'Q1 2026', desc: 'Enterprise rollout for both solutions', color: 'warning' },
                   ].map((milestone, idx) => (
                     <div key={idx} className="relative flex gap-6 group">
@@ -359,23 +360,19 @@ export default function ExecutiveBriefing() {
                 <div className="relative overflow-hidden rounded-2xl border-2 border-info/20 bg-gradient-to-br from-info-light via-white to-white p-8 shadow-soft">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-info/5 rounded-full blur-2xl" />
                   <div className="relative">
-                    <h3 className="text-2xl font-bold text-neutral-950 mb-4">December 2-3: Face-to-Face Alignment (Herzogenaurach)</h3>
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4">December 12: MVP Testing Recap Workshop</h3>
                     <ul className="space-y-3 text-neutral-700 font-medium">
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
-                        <span>Executive briefing for Pedro, Karina, and new project lead</span>
+                        <span>Feedback synthesis from mini pilot</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
-                        <span>Demonstration of both solutions</span>
+                        <span>Prioritization of improvements</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
-                        <span>Mini pilot planning and success criteria</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-info mt-2" />
-                        <span>Enterprise rollout strategy discussion</span>
+                        <span>Zsofia's handover to new project lead</span>
                       </li>
                     </ul>
                   </div>
@@ -384,23 +381,23 @@ export default function ExecutiveBriefing() {
                 <div className="relative overflow-hidden rounded-2xl border-2 border-success/20 bg-gradient-to-br from-success-light via-white to-white p-8 shadow-soft">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-success/5 rounded-full blur-2xl" />
                   <div className="relative">
-                    <h3 className="text-2xl font-bold text-neutral-950 mb-4">December 9-13: Mini Pilot Testing</h3>
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4">December - January: RC Preparation</h3>
                     <ul className="space-y-3 text-neutral-700 font-medium">
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
-                        <span>5-8 directors test Leadership Self-Reflection Tool</span>
+                        <span>Mini-testing feedback analysis and prioritization</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
-                        <span>Structured feedback collection</span>
+                        <span>UI visual refresh phase II</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
-                        <span>Refinement based on real user experience</span>
+                        <span>Learning recommendations feature (TBC)</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-success mt-2" />
-                        <span>Documentation of lessons learned</span>
+                        <span>Download report functionality</span>
                       </li>
                     </ul>
                   </div>
@@ -409,31 +406,19 @@ export default function ExecutiveBriefing() {
                 <div className="relative overflow-hidden rounded-2xl border-2 border-warning/20 bg-gradient-to-br from-warning-light via-white to-white p-8 shadow-soft">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-warning/5 rounded-full blur-2xl" />
                   <div className="relative">
-                    <h3 className="text-2xl font-bold text-neutral-950 mb-4">Q1 2026: Path to Enterprise</h3>
+                    <h3 className="text-2xl font-bold text-neutral-950 mb-4">Q1 2026: Pilot & Production</h3>
                     <ul className="space-y-3 text-neutral-700 font-medium">
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-warning mt-2" />
-                        <span><strong>January:</strong> Director cohort pilot (40-50 users)</span>
+                        <span><strong>February 3:</strong> RC release, pilot testing with 40-50 directors</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-warning mt-2" />
-                        <span><strong>February:</strong> Scale infrastructure, finalize change management</span>
+                        <span><strong>February - March:</strong> Pilot feedback, analytics implementation</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-warning mt-2" />
-                        <div>
-                          <span><strong>March:</strong> Initial enterprise rollout</span>
-                          <ul className="ml-6 mt-2 space-y-2">
-                            <li className="flex items-start gap-2 text-sm">
-                              <span className="flex-shrink-0 w-1 h-1 rounded-full bg-warning mt-1.5" />
-                              <span>Learning Agent: 8,000 people leaders</span>
-                            </li>
-                            <li className="flex items-start gap-2 text-sm">
-                              <span className="flex-shrink-0 w-1 h-1 rounded-full bg-warning mt-1.5" />
-                              <span>Self-Reflection Tool: 10,000 people leaders</span>
-                            </li>
-                          </ul>
-                        </div>
+                        <span><strong>April 13:</strong> Production release with Learning Hub integration</span>
                       </li>
                     </ul>
                   </div>
@@ -776,12 +761,21 @@ export default function ExecutiveBriefing() {
                     </div>
                     adidas
                   </h3>
-                  <ul className="space-y-3 text-sm text-neutral-700 font-medium">
-                    <li>Pedro Silva - VP Talent Organization (Self-Reflection sponsor)</li>
-                    <li>Karina - Senior Leadership (Leadership Framework sponsor)</li>
-                    <li>Zsofia Pior - Leadership Framework Product Owner (until Dec 12)</li>
-                    <li>Lucas - L&D Technical Liaison (Learning Agent)</li>
-                    <li>Divya Jhamb - Learning Initiatives India (Self-Reflection)</li>
+                  <ul className="space-y-4 text-sm text-neutral-700 font-medium">
+                    <li>
+                      <div className="font-bold text-neutral-950">Carina Tyralla</div>
+                      <div>SVP Global Talent</div>
+                      <div className="text-neutral-500">Program Sponsor — AI Learning & Leadership Development</div>
+                    </li>
+                    <li>
+                      <div className="font-bold text-neutral-950">Henning Sicking</div>
+                      <div>Director Operational Effectiveness</div>
+                      <div className="text-neutral-500">Project Director — Self-Reflection Agent</div>
+                    </li>
+                    <li>
+                      <div className="font-bold text-neutral-950">Frederike</div>
+                      <div className="text-neutral-500">Project Director — Learning Agent</div>
+                    </li>
                   </ul>
                 </div>
 
@@ -789,14 +783,14 @@ export default function ExecutiveBriefing() {
                   <h3 className="text-2xl font-bold text-neutral-950 mb-6">Baresquare</h3>
                   <ul className="space-y-4 text-sm text-neutral-700 font-medium">
                     <li>
-                      <div className="font-bold text-neutral-950">Georgios Grigoriadis, CEO</div>
+                      <div className="font-bold text-neutral-950">Georgios Grigoriadis</div>
                       <div>Strategic oversight</div>
                       <a href="mailto:georgios@baresquare.com" className="text-info hover:text-info-dark font-semibold">
                         georgios@baresquare.com
                       </a>
                     </li>
                     <li>
-                      <div className="font-bold text-neutral-950">Lars Boeddener, COO</div>
+                      <div className="font-bold text-neutral-950">Lars Boeddener</div>
                       <div>Program management</div>
                       <a href="mailto:lars@baresquare.com" className="text-info hover:text-info-dark font-semibold">
                         lars@baresquare.com
@@ -804,7 +798,10 @@ export default function ExecutiveBriefing() {
                     </li>
                     <li>
                       <div className="font-bold text-neutral-950">Nikos Vogiatzis</div>
-                      <div>Technical Lead - Development and architecture</div>
+                      <div>Technical Lead</div>
+                      <a href="mailto:nikos@baresquare.com" className="text-info hover:text-info-dark font-semibold">
+                        nikos@baresquare.com
+                      </a>
                     </li>
                   </ul>
                 </div>
